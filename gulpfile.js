@@ -1,10 +1,10 @@
-var gulp = require('gulp');
-var mjml = require('gulp-mjml');
-var mjmlEngine = require('mjml');
-var plumber = require('gulp-plumber');
-var replace = require('gulp-replace');
-var rename = require('gulp-rename');
-var pug = require('gulp-pug');
+let gulp = require('gulp'),
+	mjml = require('gulp-mjml'),
+	mjmlEngine = require('mjml'),
+	plumber = require('gulp-plumber'),
+	replace = require('gulp-replace'),
+	rename = require('gulp-rename'),
+	pug = require('gulp-pug');
 
 // module.exports = {
 // 	dev: function() {
