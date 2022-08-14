@@ -3,17 +3,23 @@ const gulp = require('gulp'),
 	rename = require('gulp-rename'),
 	htmlbeautify = require('gulp-html-beautify'),
 	pug = require('gulp-pug'),
-	paths = require('./paths');
+	paths = require('./paths'),
+	fs = require('fs');
 
 var onError = require('./onError');
 
+let dirPages = [];
+fs.readdirSync('src/pages', { withFileTypes: true })
+	.filter((d) => d.isDirectory())
+	.map((d) => dirPages.push(d.name));
 
 module.exports = {
-	dev: function() {
-		return gulp
+	dev: (_) => {
+		gulp
 			.src(paths.pug.src)
 			.pipe(plumber({ errorHandler: onError }))
-			.pipe(pug())
+			.pipe(pug({locals: {listPages: dirPages
+				}}))
 			.pipe(
 				htmlbeautify({
 					indent_size: 2,
@@ -23,13 +29,15 @@ module.exports = {
 			)
 			.pipe(rename({extname: '.html'}))
 			.pipe(gulp.dest(paths.pug.dev));
+		_();
 	},
 
-	prod: function() {
-		return gulp
+	prod: (_) => {
+		gulp
 			.src(paths.pug.src)
 			.pipe(plumber({ errorHandler: onError }))
-			.pipe(pug())
+			.pipe(pug({locals: {listPages: dirPages
+				}}))
 			.pipe(
 				htmlbeautify({
 					indent_size: 2,
@@ -39,5 +47,6 @@ module.exports = {
 			)
 			.pipe(rename({extname: '.html'}))
 			.pipe(gulp.dest(paths.pug.prod));
+		_();
 	}
 };

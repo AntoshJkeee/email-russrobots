@@ -16,6 +16,9 @@ module.exports = function(done) {
     gulp.watch(paths.mjml.watch).on('change', function(path) {
       gulp.series('mjml', browserSync.reload)();
     });
+		gulp.watch(paths.pug.watch).on('change', function(path) {
+			gulp.series('pug', browserSync.reload)();
+		});
     browserSync.init({
       server: 'app'
     });

@@ -14,8 +14,9 @@ gulp.task('pug-p', pug.prod);
 module.exports = function(done) {
   return gulp.series('clean:build', 'mjml-p', 'pug-p', async function () {
     gulp.watch(paths.mjml.watch, gulp.series(['mjml-p', browserSync.reload]));
+		gulp.watch(paths.pug.watch, gulp.series(['pug-p', browserSync.reload]));
     browserSync.init({
-      server: 'build/app'
+      server: 'build'
     });
     done();
   })();
