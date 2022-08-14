@@ -1,0 +1,296 @@
+<mjml>
+	<mj-head>
+		<mj-attributes>
+			<mj-preview>ПРЕВЬЮ СООБЩЕНИЯ</mj-preview>
+			<mj-text padding="0" font-family="Arial" />
+			<mj-section padding="0" />
+			<mj-class name="section" padding-top="60px" padding-bottom="24px" />
+			<mj-class name="with-subsection" padding-bottom="0" />
+			<mj-class name="section-title" font-size="32px" line-height="40px" color="#2B2E33" align="left" font-weight="700" />
+			<mj-class name="subsection" padding-top="24px" padding-bottom="16px" />
+			<mj-class name="subsection-title" font-size="16px" line-height="24px" color="#111214" align="left" font-weight="700" />
+			<mj-class name="item" padding="7px 0 8px" border-top="1px solid #E8E9EB" />
+			<mj-class name="item-date" padding-top="8px" font-size="14px" line-height="16px" color="#8F96A3" />
+			<mj-class name="item-tag" padding-bottom="8px" font-size="14px" line-height="16px" color="#676E7B" />
+			<mj-class name="footer-bg" background-color="#77787B" />
+			<mj-class name="footer-text" font-size="14px" line-height="20px" align="center" />
+		</mj-attributes>
+		<mj-style>#outlook .mj-outlook-group-fix {
+			max-width: 600px !important;
+			color: red!important;
+			}
+			#outlook a{
+			}
+			#outlook .mj-column-per-100 {
+			max-width: 600px !important;
+			color: blue!important;
+			}
+			.item-link:hover, .hover-link:hover {
+			text-decoration: underline !important;
+			}
+			p, ul, ol {
+			margin: 8px 0;
+			}
+			.mj-outlook-group-fix {
+			max-width: 600px!important;
+			}
+			.mj-column-per-100 {
+			max-width: 600px!important;
+			}</mj-style>
+		<mj-style inline="inline">.subsection-divider {
+			color: #8F96A3;
+			}
+			.item-main {
+			margin: 8px 0;
+			}
+			.item-link {
+			cursor: pointer;
+			font-size: 16px;
+			line-height: 24px;
+			color: #2B2E33;
+			text-decoration: none;
+			display: block;
+			}</mj-style>
+	</mj-head>
+	<mj-body>
+		<mj-section mj-class="section" padding-bottom="0">
+			<mj-column padding="10px 10px 90px" width="100%" background-color="#3884bd">
+				<mj-image width="200px" align="left" src="http://cbr.aic.ru/common/images/home-logo.png" />
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="section" background-color="#77787B">
+			<mj-column width="100%" padding="0px 50px" background-color="#77787B">
+				<mj-text font-weight="500" font-size="28px" line-height="1" color="#ffffff" padding-bottom="56px">НОВОЕ НА<a href="https://www.cbr.ru/" style="color:#ffffff;text-decoration:none"> CBR.RU</a></mj-text>
+				<mj-text font-size="14px" line-height="16px" color="#ffffff" font-weight="600" padding-bottom="8px">12 сентября, 2020</mj-text>
+				<mj-text font-size="12px" line-height="16px"><a class="hover-link" href="/" target="_blank" style="color:#ffffff;text-decoration:none;cursor:pointer;">Управление рассылкой</a></mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="section">
+			<mj-column>
+				<mj-text mj-class="section-title">Пресс-релизы</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text mj-class="item-date">Сегодня<span style="color:#ED1A34;"> Новость</span></mj-text>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Банк России начинает публикацию аналитических комментариев о динамике цен в регионах</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text mj-class="item-date">18 сентября 2020<span style="color:#ED1A34;"> Выступление</span></mj-text>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Заявление Председателя Банка России Эльвиры Набиуллиной по итогам заседания Совета директоров 18 сентября 2020 года</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text mj-class="item-date">Сегодня<span style="color:#ED1A34;"> Новость</span></mj-text>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Банк России начинает публикацию аналитических комментариев о динамике цен в регионах</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text mj-class="item-date">18 сентября 2020<span style="color:#ED1A34;"> Выступление</span></mj-text>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Заявление Председателя Банка России Эльвиры Набиуллиной по итогам заседания Совета директоров 18 сентября 2020 года</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="section">
+			<mj-column>
+				<mj-text mj-class="section-title">Новое на сайте</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text mj-class="item-date">21 сентября 2020, 12:56</mj-text>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Проекты нормативных документов Банка России для публичного обсуждения</a></div>
+				</mj-text>
+				<mj-text mj-class="item-tag">Проекты нормативных актов Банка России</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text mj-class="item-date">21 сентября 2020, 09:56</mj-text>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Решения Банка России в отношении участников финансового рынка</a></div>
+				</mj-text>
+				<mj-text mj-class="item-tag">Решения Банка России</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text mj-class="item-date">21 сентября 2020, 12:56</mj-text>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Проекты нормативных документов Банка России для публичного обсуждения</a></div>
+				</mj-text>
+				<mj-text mj-class="item-tag">Проекты нормативных актов Банка России</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text mj-class="item-date">21 сентября 2020, 09:56</mj-text>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Решения Банка России в отношении участников финансового рынка</a></div>
+				</mj-text>
+				<mj-text mj-class="item-tag">Решения Банка России</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text mj-class="item-date">21 сентября 2020, 12:56</mj-text>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Проекты нормативных документов Банка России для публичного обсуждения</a></div>
+				</mj-text>
+				<mj-text mj-class="item-tag">Проекты нормативных актов Банка России</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text mj-class="item-date">21 сентября 2020, 09:56</mj-text>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Решения Банка России в отношении участников финансового рынка</a></div>
+				</mj-text>
+				<mj-text mj-class="item-tag">Решения Банка России</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="section with-subsection">
+			<mj-column>
+				<mj-text mj-class="section-title">Вопросы-ответы</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="subsection">
+			<mj-column>
+				<mj-text mj-class="subsection-title">Название темы<span class="subsection-divider"> ·</span> Название подтемы 1<span class="subsection-divider"> ·</span> Название подтемы 2</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Что делать, если срок действия моей банковской карты истек, а добраться до отделения банка для ее переоформления я не могу из-за карантина?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Я — юридическое лицо. Могу ли я дистанционно открыть банковский счет для получения «зарплатного» кредита?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Что делать, если срок действия моей банковской карты истек, а добраться до отделения банка для ее переоформления я не могу из-за карантина?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="subsection">
+			<mj-column>
+				<mj-text mj-class="subsection-title">Название темы<span class="subsection-divider"> ·</span> Название подтемы 1<span class="subsection-divider"> ·</span> Название подтемы 2</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Я — юридическое лицо. Могу ли я дистанционно открыть банковский счет для получения «зарплатного» кредита?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Что делать, если срок действия моей банковской карты истек, а добраться до отделения банка для ее переоформления я не могу из-за карантина?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Я — юридическое лицо. Могу ли я дистанционно открыть банковский счет для получения «зарплатного» кредита?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="section with-subsection">
+			<mj-column>
+				<mj-text mj-class="section-title">Разъяснения</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="subsection">
+			<mj-column>
+				<mj-text mj-class="subsection-title">Название темы<span class="subsection-divider"> ·</span> Название подтемы 1<span class="subsection-divider"> ·</span> Название подтемы 2</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Какие нормативно-правовые акты, устанавливают требования для получения лицензии профессионального участника рынка ценных бумаг?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">По каким реквизитам следует оплачивать государственную пошлину за выдачу лицензии профессионального участника рынка ценных бумаг?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Какие нормативно-правовые акты, устанавливают требования для получения лицензии профессионального участника рынка ценных бумаг?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="subsection">
+			<mj-column>
+				<mj-text mj-class="subsection-title">Название темы<span class="subsection-divider"> ·</span> Название подтемы 1<span class="subsection-divider"> ·</span> Название подтемы 2</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">По каким реквизитам следует оплачивать государственную пошлину за выдачу лицензии профессионального участника рынка ценных бумаг?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">Какие нормативно-правовые акты, устанавливают требования для получения лицензии профессионального участника рынка ценных бумаг?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="item">
+			<mj-column>
+				<mj-text>
+					<div class="item-main"><a class="item-link" href="/" target="_blank">По каким реквизитам следует оплачивать государственную пошлину за выдачу лицензии профессионального участника рынка ценных бумаг?</a></div>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section padding-top="64px"></mj-section>
+		<mj-section mj-class="footer-bg" padding="40px 0 24px">
+			<mj-column>
+				<mj-text font-size="18px" line-height="24px" color="#FFFFFF" align="center">Следите за нами в соцсетях</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="footer-bg" padding-bottom="40px">
+			<mj-column mj-class="social">
+				<mj-text font-size="18px" line-height="1" align="center"><a href="https://www.facebook.com/cbr.ru/" target="_blank" style="color:#FFFFFF"><img width="40px" height="40px" src="http://cbr.aic.ru/common/images/mail/facebook.png" alt="facebook" /></a>&nbsp;&nbsp;&nbsp;<a href="https://vk.com/cbr_official" target="_blank" style="color:#FFFFFF"><img width="40px" height="40px" src="http://cbr.aic.ru/common/images/mail/vkontakte.png" alt="vkontakte" /></a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/bank_of_russia" target="_blank" style="color:#FFFFFF"><img width="40px" height="40px" src="http://cbr.aic.ru/common/images/mail/twitter.png" alt="twitter" /></a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/user/BankofRussia" target="_blank" style="color:#FFFFFF"><img width="40px" height="40px" src="http://cbr.aic.ru/common/images/mail/youtube.png" alt="youtube" /></a></mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section mj-class="footer-bg" padding-bottom="40px">
+			<mj-column>
+				<mj-text mj-class="footer-text" color="#BCC1CC" padding-bottom="8px">Copyright 2018 Центральный Банк России. Все права защищены.</mj-text>
+				<mj-text mj-class="footer-text"><a href="/" style="color:#FFFFFF">Управление рассылкой</a></mj-text>
+			</mj-column>
+		</mj-section>
+	</mj-body>
+</mjml>

@@ -1,6 +1,6 @@
-include ../layouts/default/mjSpacer
-include ../layouts/default/mjDivider
-include ../layouts/default/table
+include ../components/mjSpacer
+include ../components/mjDivider
+include ../components/table
 
 -
   let tables = [
@@ -70,11 +70,11 @@ include ../layouts/default/table
 mjml
   mj-head
     //- HEAD письма
-    include ../layouts/default/head
+    include ../sections/head
 
   mj-body
     //- HEADER письма
-    include ../layouts/default/header
+    include ../sections/header
 
     // Отступ между секциями
     +mjSpacer('64px')
@@ -204,4 +204,4 @@ mjml
     +mjSpacer('32px')
 
     //- FOOTER письма
-    include ../layouts/default/footer
+    include ../sections/footer

@@ -3,7 +3,7 @@ module.exports = {
     src: 'src/pages/*.pug',
     dev: 'app/',
     prod: 'build/',
-    convert: 'src/mjml/',
+    convert: 'mjml/',
     watch: 'src/**/*.pug'
   }
 };
