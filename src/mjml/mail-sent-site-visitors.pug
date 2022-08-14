@@ -1,0 +1,207 @@
+include ../html/layouts/email/mjSpacer
+include ../html/layouts/email/mjDivider
+include ../html/layouts/email/table
+
+-
+  let tables = [
+    {
+      title: 'Контактные данные',
+      columns: [
+        {
+          name: 'Номер мобильного телефона',
+          description: '+7 (900) 123-45-67'
+        },
+        {
+          name: 'Адрес электронной почты',
+          description: 'konstantinopolsky@gmail.com',
+          borderBottom: false
+        }
+      ]
+    },
+    {
+      spacerTop: true,
+      title: 'Заявка № 12750',
+      columns: [
+        {
+          name: 'Фамилия',
+          description: 'Константинопольский'
+        },
+        {
+          name: 'Имя',
+          description: 'Константин'
+        },
+        {
+          name: 'Отчество2',
+          description: 'Константинович'
+        },
+        {
+          name: 'Дополнительная информация',
+          description: 'Дополнительная информация, возможно, в несколько строк',
+          borderBottom: false
+        }
+      ]
+    },
+    {
+      spacerTop: true,
+      title: 'Заявка № 12751',
+      columns: [
+        {
+          name: 'Фамилия',
+          description: 'Константинопольский'
+        },
+        {
+          name: 'Имя',
+          description: 'Константин'
+        },
+        {
+          name: 'Отчество2',
+          description: 'Константинович'
+        },
+        {
+          name: 'Дополнительная информация',
+          description: 'Дополнительная информация, возможно, в несколько строк',
+          borderBottom: false
+        }
+      ]
+    }
+  ]
+
+
+mjml
+  mj-head
+    //- HEAD письма
+    include ../html/layouts/email/head
+
+  mj-body
+    //- HEADER письма
+    include ../html/layouts/email/header
+
+    // Отступ между секциями
+    +mjSpacer('64px')
+
+    //- Сеекция заголовок и его описание
+    mj-section(text-align='center')
+      mj-column
+        //- Заголовок
+        mj-text(
+          align='center'
+          font-weight='700'
+          font-size='32px'
+          line-height='40px'
+          color='#2B2E33'
+        )
+          | Заявка № 12749 отменена/создана/изменена
+        //- Описание заголовка
+        mj-text(
+          align='center'
+          font-size='16px'
+          line-height='24px'
+          color='#2B2E33'
+          font-weight='400'
+          padding-top='24px'
+        )
+          | Заявка № 12749 на экскурсию «Страницы истории Банка России» 27.11.2021 в 14:00 отменена/создана/изменена.
+
+    // spacer('112px') - при отдельном использование секции 'Заголовок и его описание' нужно добавить отступ в 112px
+    //- +mjSpacer('112px')
+
+    // Отступ между секциями
+    +mjSpacer('64px')
+
+    //- Секция подзаголовок
+    mj-section(text-align='center')
+      mj-column
+        mj-text(mj-class='footer-text' color='#676E7B')
+          | Экскурсия
+        mj-text(align='center' font-size='20px' line-height='28px' color='#2B2E33' padding-top='8px')
+          | Страницы истории Банка России
+        mj-text(align='center' color='#2B2E33' padding-top='4px')
+          | для широкой аудитории, в том числе для школьников старших классов
+        mj-text(align='center' color='#2B2E33' padding-top='20px')
+          | 16.11.2021 в 07:20
+
+    // Отступ между секциями
+    +mjSpacer('48px')
+
+    // Дивайдер между секциями
+    +mjDivider
+    // Отступ между секциями
+    +mjSpacer('20px')
+
+
+    //- Секция описания
+    mj-section(text-align='center')
+      mj-column
+        mj-text(align='left' color='#2B2E33')
+          | Для окончательной регистрации Вашей заявки на экскурсию Вам необходимо в ответном сообщении на адрес #[a(href='mailto:expo@cbr.ru' style='color:#2B2E33;')  expo@cbr.ru] не позднее, чем за 3 дня до выбранной даты отправить список посетителей (Ф.И.О.) с паспортными данными (серия и номер паспорта) в формате Microsoft Word (не скан) для оформления пропусков на территорию Банка России.
+          br
+          br
+          | Для граждан иностранных государств указываются: гражданство, латинская транслитерация имени и фамилии, серия и номер паспорта.
+          br
+          br
+          | После регистрации заявки на электронную почту будет направлено уведомление об изменении статуса заявки на «Утвержден», что будет означать готовность принять группу в заявленное время.
+
+
+    // Отступ между секциями
+    +mjSpacer('20px')
+    // Дивайдер между секциями
+    +mjDivider
+    // Отступ между секциями
+    +mjSpacer('48px')
+    // Если сверху секции с предупреждением отсутствует секция описания, то отступ должен быть 20px
+
+
+    //- Секция с предупреждением
+    mj-section(text-align='center')
+      mj-column
+        mj-text(align='center' color='#676E7B')
+          | С 28 октября для посетителей 18+ вход в здание музея возможен только при предъявлении QR-кода с информацией о вакцинации против COVID-19, перенесенном заболевании или ПЦР-тесте, сделанном не ранее 72 часов до посещения, а также документа, удостоверяющего личность. Дети могут посещать музей в сопровождении взрослых, предъявивших QR-коды.
+        mj-social(font-size='14px' icon-size='16px' mode='horizontal' padding-top='32px' line-height='20px' font-weight='700' color='#2B2E33' padding='0')
+          mj-social-element(src='http://develop.frontend.aic.ru/common/images/mail/attention.png')
+            | Необходимо приезжать за 10 минут до начала экскурсии
+
+
+    // Отступ между секциями
+    +mjSpacer('20px')
+    // Дивайдер между секциями
+    +mjDivider
+
+
+    // Отступ между секциями
+    +mjSpacer('48px')
+
+
+    //- Секция адрес и карта
+    mj-section(text-align='center')
+      mj-column
+        mj-text(align='center' color='#2B2E33')
+          | ул. Неглинная, 12кБ
+        mj-text(align='center' color='#676E7B' padding-top='4px' padding-bottom='16px')
+          | Встреча в холле здания Банка России (подъезд с настенным градусником слева от входа)
+        mj-image(src='http://develop.frontend.aic.ru/common/images/mail/map-email.jpg')/
+
+    // Отступ между секциями
+    +mjSpacer('48px')
+
+    //- Секция таблица с данными
+    for table in tables
+      +table(table)
+
+
+    // Отступ между секциями
+    +mjSpacer('64px')
+
+    //- Секция ссылка на отмену заявки
+    mj-section(text-align='center')
+      mj-column
+        mj-text(
+          align='center'
+          color='#2B2E33'
+        )
+          a(href='#' style='color: #676E7B;') Отменить или изменить заявку
+
+    // Отступ между секциями
+    +mjSpacer('32px')
+
+    //- FOOTER письма
+    include ../html/layouts/email/footer

@@ -1,0 +1,22 @@
+//- data принимет:
+      spacerTop - true отступ сверху таблицы
+      title - заголовок таблицы
+      columns (массив объектов) принимает
+        name - левая ячейка
+        description - правая ячейка
+        borderBottom - false убрать нижний бордер
+
+mixin table(data)
+  if data.spacerTop
+    +mjSpacer('24px')
+  mj-section(border-bottom='1px solid #E8E9EB' text-align="left")
+    mj-column
+      mj-text(padding='0 0 12px' font-weight='700' color='#2B2E33') !{data.title}
+
+  for column in data.columns
+    - let borderBottom = column.borderBottom === false ? '' : '1px solid #E8E9EB';
+    mj-section(border-bottom=borderBottom text-align="left")
+      mj-column(css-class='yandex-width')
+        mj-text(padding='5px 0' color='#676E7B' align='left') !{column.name}
+      mj-column(css-class='yandex-width')
+        mj-text(padding='5px 0' color='#2B2E33' align='left') !{column.description}

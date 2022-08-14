@@ -1,31 +1,32 @@
-let gulp = require('gulp'),
-	mjml = require('gulp-mjml'),
-	mjmlEngine = require('mjml'),
-	plumber = require('gulp-plumber'),
-	replace = require('gulp-replace'),
-	rename = require('gulp-rename'),
-	pug = require('gulp-pug');
+var gulp = require('gulp');
+var build = require('./gulp/build');
+var dev = require('./gulp/dev');
+var prod = require('./gulp/prod');
 
-// module.exports = {
-// 	dev: function() {
-// 		return gulp
-// 			.src(paths.mjml.src)
-// 			.pipe(plumber({ errorHandler: onError }))
-// 			.pipe(pug({pretty: true}))
-// 			.pipe(rename({extname: '.mjml'}))
-// 			.pipe(gulp.dest(paths.mjml.convert))
-// 			.pipe(mjml(mjmlEngine, { validationLevel: 'strict' }))
-// 			// .pipe(replace('http://cbr.aic.ru', ''))
-// 			.pipe(gulp.dest(paths.mjml.dev));
-// 	},
-// 	prod: function() {
-// 		return gulp
-// 			.src(paths.mjml.src)
-// 			.pipe(plumber({ errorHandler: onError }))
-// 			.pipe(pug({pretty: true}))
-// 			.pipe(rename({extname: '.mjml'}))
-// 			.pipe(gulp.dest(paths.mjml.convert))
-// 			.pipe(mjml(mjmlEngine, {  keepComments: false, validationLevel: 'strict' }))
-// 			.pipe(gulp.dest(paths.mjml.prod));
-// 	}
-// };
+gulp.task('default', build);
+
+// Use for development
+gulp.task('dev', dev);
+
+// Use to build app
+gulp.task('build', build);
+
+// Use to check production build
+gulp.task('prod', prod);
+
+// // Определяем константы Gulp
+// const { src, dest, parallel, series, watch } = require('gulp');
+//
+// // Подключаем Browsersync
+// const browserSync = require('browser-sync').create();
+//
+// function browsersync() {
+//   browserSync.init({ // Инициализация Browsersync
+//     server: { baseDir: 'app/' }, // Указываем папку сервера
+//     notify: false, // Отключаем уведомления
+//     online: true // Режим работы: true или false
+//   })
+// }
+//
+// // Экспортируем функцию browsersync() как таск browsersync. Значение после знака = это имеющаяся функция.
+// exports.browsersync = browsersync;
