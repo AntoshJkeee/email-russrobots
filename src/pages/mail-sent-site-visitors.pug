@@ -1,6 +1,6 @@
-include ../html/layouts/email/mjSpacer
-include ../html/layouts/email/mjDivider
-include ../html/layouts/email/table
+include ../layouts/default/mjSpacer
+include ../layouts/default/mjDivider
+include ../layouts/default/table
 
 -
   let tables = [
@@ -70,11 +70,11 @@ include ../html/layouts/email/table
 mjml
   mj-head
     //- HEAD письма
-    include ../html/layouts/email/head
+    include ../layouts/default/head
 
   mj-body
     //- HEADER письма
-    include ../html/layouts/email/header
+    include ../layouts/default/header
 
     // Отступ между секциями
     +mjSpacer('64px')
@@ -204,4 +204,4 @@ mjml
     +mjSpacer('32px')
 
     //- FOOTER письма
-    include ../html/layouts/email/footer
+    include ../layouts/default/footer
