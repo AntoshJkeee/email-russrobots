@@ -17,8 +17,10 @@
     "mjml": "^4.13.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+		"start": "gulp dev",
+		"build": "gulp build",
+		"serve": "gulp prod"
+	},
   "author": "",
   "license": "ISC"
 }
