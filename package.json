@@ -21,6 +21,6 @@
 		"build": "gulp build",
 		"serve": "gulp prod"
 	},
-  "author": "",
+  "author": "Evgeniy Sevostyanov",
   "license": "ISC"
 }
