@@ -4,9 +4,8 @@ const gulp = require('gulp'),
 	htmlbeautify = require('gulp-html-beautify'),
 	pug = require('gulp-pug'),
 	paths = require('./paths'),
-	fs = require('fs');
-
-var onError = require('./onError');
+	fs = require('fs'),
+	onError = require('./onError');
 
 let dirPages = [];
 fs.readdirSync('src/pages', { withFileTypes: true })

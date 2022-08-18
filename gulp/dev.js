@@ -13,10 +13,10 @@ gulp.task('pug', pug.dev);
 
 module.exports = function(done) {
   return gulp.series('clean:app', 'mjml', 'pug', function () {
-    gulp.watch(paths.mjml.watch).on('change', function(path) {
+    gulp.watch(paths.mjml.watch).on('change', function() {
       gulp.series('mjml', browserSync.reload)();
     });
-		gulp.watch(paths.pug.watch).on('change', function(path) {
+		gulp.watch(paths.pug.watch).on('change', function() {
 			gulp.series('pug', browserSync.reload)();
 		});
     browserSync.init({

@@ -1,0 +1,25 @@
+{
+	"root": true,
+	"parser": "@babel/eslint-parser",
+	"extends": [
+		"eslint:recommended",
+		"prettier"
+	],
+	"rules": {
+		"semi": "warn",
+		"no-console": "error",
+		"no-debugger": "error",
+		"no-var": 0
+	},
+	"plugins": [
+		"prettier"
+	],
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	},
+	"parserOptions": {
+		"requireConfigFile": false
+	}
+}
