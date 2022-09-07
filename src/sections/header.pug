@@ -1,3 +1,9 @@
-mj-section(text-align='center')
-  mj-column
-    mj-image(src='http://develop.frontend.aic.ru/common/images/mail/logo.png' width='118px' height='70px' alt='CBR' href='https://www.cbr.ru/')/
+mj-section(text-align='center', background-color='#ea5658', css-class='header')
+	mj-column(css-class='header__column')
+		mj-text
+			| LOGO
+	mj-column(css-class='header__column')
+		+title
+			| #{ mailPage.header.title }
+-
+	console.log(mailPage.header)

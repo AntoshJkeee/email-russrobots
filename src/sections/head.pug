@@ -1,29 +1,36 @@
 mj-title Письма направляемые с сайта посетителям
 mj-attributes
-  mj-text(
-    padding='0'
-    font-family='Arial'
-    font-size='14px'
-    line-height='20px'
-    font-weight='400'
-  )/
-  mj-section(padding='0')/
-  mj-divider(padding='0')/
-  mj-image(padding='0')/
-  mj-class(name='footer-bg' background-color='#77787B')/
-  mj-class(name='footer-text' font-size='14px' line-height='20px' align='center')/
+	mj-text(
+		padding='0'
+		font-family='Verdana'
+		font-size='14px'
+		line-height='21px'
+	)/
+	mj-section(padding='0')/
+	mj-divider(padding='0')/
+	mj-image(padding='0')/
+	mj-class(name='footer-bg' background-color='#77787B')/
+	mj-class(name='footer-text' font-size='14px' line-height='20px' align='center')/
 mj-style(inline="inline").
-  .yandex-width {
-    width: 295px !important;
-  }
+	.yandex-width {
+		width: 295px !important;
+	}
+	.header {
+		height: 234px;
+	}
 mj-style.
-  @media only screen and (max-width:480px) {
-    .yandex-width {
-      width: 100% !important;
-    }
-  }
-  @media only screen and (min-width:480px) {
-      .yandex-width {
-        width: 295px !important;
-      }
-  }
+	.header__column {
+		width: 100% !important;
+		max-width: 100%;
+		height: 100%;
+	}
+	@media only screen and (max-width:480px) {
+		.yandex-width {
+			width: 100% !important;
+		}
+	}
+	@media only screen and (min-width:480px) {
+			.yandex-width {
+				width: 295px !important;
+			}
+	}
