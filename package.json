@@ -25,6 +25,7 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-pug": "^1.2.4",
     "gulp": "^4.0.2",
     "gulp-html-beautify": "^1.0.1",
     "gulp-mjml": "^4.0.2",
@@ -47,7 +48,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js, pug}": [
       "prettier --write",
       "node_modules/.bin/eslint --max-warnings=0"
     ]

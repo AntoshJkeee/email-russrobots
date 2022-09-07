@@ -12,6 +12,7 @@
 		"no-var": 0
 	},
 	"plugins": [
+		"pug",
 		"prettier"
 	],
 	"env": {
