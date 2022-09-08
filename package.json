@@ -32,6 +32,7 @@
     "gulp-notify": "^4.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-pug": "^5.0.0",
+    "gulp-pug-linter": "^1.5.0",
     "gulp-rename": "^2.0.0",
     "gulp-util": "^3.0.8",
     "husky": "^8.0.1",
@@ -49,9 +50,9 @@
     }
   },
   "lint-staged": {
-		"*.pug": [
-			"pug-lint"
-		],
+    "*.pug": [
+      "pug-lint"
+    ],
     "*.{js, pug}": [
       "prettier --write",
       "node_modules/.bin/eslint --max-warnings=0"
