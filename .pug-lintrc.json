@@ -1,0 +1,27 @@
+{
+	"disallowAttributeInterpolation": true,
+	"disallowClassAttributeWithStaticValue": true,
+	"disallowClassLiteralsBeforeIdLiterals": true,
+	"disallowDuplicateAttributes": true,
+	"disallowHtmlText": true,
+	"disallowIdLiterals": true,
+	"disallowLegacyMixinCall": true,
+	"disallowMultipleLineBreaks": true,
+	"disallowSpacesInsideAttributeBrackets": true,
+	"disallowSpecificAttributes": "class",
+	"requireLowerCaseAttributes": true,
+	"requireLowerCaseTags": true,
+	"requireSpaceAfterCodeOperator": true,
+	"requireSpecificAttributes": [
+		{
+			"img": ["alt", "src"]
+		}
+	],
+	"validateAttributeQuoteMarks": "'",
+	"validateAttributeSeparator": {
+		"separator": " ",
+		"multiLineSeparator": "\n\t"
+	},
+	"validateDivTags": true,
+	"validateIndentation": "\t"
+}
