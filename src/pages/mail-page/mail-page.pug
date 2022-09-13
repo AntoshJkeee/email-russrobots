@@ -5,7 +5,7 @@ include ./store/mail-page.store.pug
 include ../../components/mjSpacer
 include ../../components/mjDivider
 include ../../components/table
-include ../../components/title
+include ../../components/titleH1
 
 mjml
 	mj-head
@@ -17,10 +17,10 @@ mjml
 		include ../../sections/header
 
 		// Отступ между секциями
-		+mjSpacer('64px')
+		+mjSpacer('50px')
 
 		//- Сеекция заголовок и его описание
-		mj-section(text-align='center')
+		mj-section(background-color='#F1F1F1' padding='30px')
 			mj-column
 				//- Заголовок
 				mj-text(
@@ -68,7 +68,6 @@ mjml
 		// Отступ между секциями
 		+mjSpacer('20px')
 
-
 		//- Секция описания
 		mj-section(text-align='center')
 			mj-column
@@ -81,7 +80,6 @@ mjml
 					br
 					| После регистрации заявки на электронную почту будет направлено уведомление об изменении статуса заявки на «Утвержден», что будет означать готовность принять группу в заявленное время.
 
-
 		// Отступ между секциями
 		+mjSpacer('20px')
 		// Дивайдер между секциями
@@ -89,7 +87,6 @@ mjml
 		// Отступ между секциями
 		+mjSpacer('48px')
 		// Если сверху секции с предупреждением отсутствует секция описания, то отступ должен быть 20px
-
 
 		//- Секция с предупреждением
 		mj-section(text-align='center')
@@ -100,16 +97,13 @@ mjml
 					mj-social-element(src='http://develop.frontend.aic.ru/common/images/mail/attention.png')
 						| Необходимо приезжать за 10 минут до начала экскурсии
 
-
 		// Отступ между секциями
 		+mjSpacer('20px')
 		// Дивайдер между секциями
 		+mjDivider
 
-
 		// Отступ между секциями
 		+mjSpacer('48px')
-
 
 		//- Секция адрес и карта
 		mj-section(text-align='center')
@@ -126,7 +120,6 @@ mjml
 		//- Секция таблица с данными
 		for table in tables
 			+table(table)
-
 
 		// Отступ между секциями
 		+mjSpacer('64px')
