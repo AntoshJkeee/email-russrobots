@@ -55,8 +55,7 @@
 		</mj-section>
 		<mj-section background-color="#F1F1F1" padding="30px">
 			<mj-column>
-				<mj-text align="center" font-weight="700" font-size="32px" line-height="40px" color="#2B2E33">Заявка № 12749 отменена/создана/изменена</mj-text>
-				<mj-text align="center" font-size="16px" line-height="24px" color="#2B2E33" font-weight="400" padding-top="24px">Заявка № 12749 на экскурсию «Страницы истории Банка России» 27.11.2021 в 14:00 отменена/создана/изменена.</mj-text>
+				<mj-text font-size="20px" color="#000000" font-weight="700" line-height="32px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ [#br ] ПОНЯТЬ, КУДА ТЫ ПОПАЛ И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
 			</mj-column>
 		</mj-section><!-- spacer('112px') - при отдельном использование секции 'Заголовок и его описание' нужно добавить отступ в 112px-->
 		<!-- Отступ между секциями-->
