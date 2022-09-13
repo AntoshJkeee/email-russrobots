@@ -1,10 +1,7 @@
-mj-section(text-align='center', background-color='#ea5658', css-class='header')
-	mj-column(css-class='header__column')
-		mj-text
-			| LOGO
-	mj-column(css-class='header__column')
+mj-section(text-align='center' background-color='#ea5658' css-class='header-top')
+	mj-column()
+		mj-image(width='92px' align='left' src='https://ltdfoto.ru/images/2022/09/14/Vector.png')
+mj-section(text-align='center' background-color='#ea5658' css-class='header-bottom')
+	mj-column()
 		+title
 			| #{ mailPage.header.title }
--
-	console.log(mailPage.header)
-	let a = 'sdsd'

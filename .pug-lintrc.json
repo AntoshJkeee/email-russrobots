@@ -8,7 +8,6 @@
 	"disallowLegacyMixinCall": true,
 	"disallowMultipleLineBreaks": true,
 	"disallowSpacesInsideAttributeBrackets": true,
-	"disallowSpecificAttributes": "class",
 	"requireLowerCaseAttributes": true,
 	"requireLowerCaseTags": true,
 	"requireSpaceAfterCodeOperator": true,
