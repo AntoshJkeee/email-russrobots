@@ -53,9 +53,9 @@
 				<mj-spacer height="50px" />
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="#F1F1F1" padding="30px">
+		<mj-section background-color="#F1F1F1" padding="45px">
 			<mj-column>
-				<mj-text font-size="20px" color="#000000" font-weight="700" line-height="32px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ [#br ] ПОНЯТЬ, КУДА ТЫ ПОПАЛ И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
+				<mj-text font-size="20px" color="#000000" font-weight="700" line-height="32px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
 			</mj-column>
 		</mj-section><!-- spacer('112px') - при отдельном использование секции 'Заголовок и его описание' нужно добавить отступ в 112px-->
 		<!-- Отступ между секциями-->
