@@ -1,10 +1,11 @@
--
-	const mailPage = {
-		header: {
-			title: 'ДОБРО ПОЖАЛОВАТЬ В КОМАНДУ!'
-		}
-	}
+//- Объявление переменной страницы
+- let mailPage = addSections();
 
+//- данные секции HEADER
+include mail-page-header
+- mailPage.section = 'header';
+
+-
 	const tables = [
 		{
 			title: 'Контактные данные',

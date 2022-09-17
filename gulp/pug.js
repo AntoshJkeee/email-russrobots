@@ -5,8 +5,7 @@ const gulp = require('gulp'),
 	pug = require('gulp-pug'),
 	paths = require('./paths'),
 	fs = require('fs'),
-	onError = require('./onError'),
-	pugLinter = require('gulp-pug-linter');
+	onError = require('./onError');
 
 let dirPages = [];
 fs.readdirSync('src/pages', { withFileTypes: true })
@@ -18,7 +17,6 @@ module.exports = {
 		gulp
 			.src(paths.pug.src)
 			.pipe(plumber({ errorHandler: onError }))
-			.pipe(pugLinter({ reporter: 'default' }))
 			.pipe(pug({ locals: { listPages: dirPages } }))
 			.pipe(
 				htmlbeautify({

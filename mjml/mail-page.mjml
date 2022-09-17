@@ -14,7 +14,7 @@
 			}
 			.header-top {
 			padding: 45px 45px 0 45px;
-			height: 140px;
+			height: 180px;
 			box-sizing: border-box;
 			}
 			.header-bottom {
@@ -40,7 +40,7 @@
 	<mj-body>
 		<mj-section text-align="center" background-color="#ea5658" css-class="header-top">
 			<mj-column>
-				<mj-image width="92px" align="left" src="https://ltdfoto.ru/images/2022/09/14/Vector.png"></mj-image>
+				<mj-image width="92px" align="left" src="https://i.ibb.co/j6JwGnZ/logo.png"></mj-image>
 			</mj-column>
 		</mj-section>
 		<mj-section text-align="center" background-color="#ea5658" css-class="header-bottom">

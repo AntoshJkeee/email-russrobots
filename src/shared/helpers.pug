@@ -1,0 +1,37 @@
+-
+	const ERROR_PROPS = 'НЕПРАВИЛЬНО ПЕРЕДАН PROPS';
+
+	//- Проверка данных из стора
+	function shortcutCheckStore(dataStore) {
+		return {
+			//- DATA для проверки данных из объекта data: {}
+			DATA: function DATA(storeData) {
+				return dataStore && dataStore.data && dataStore.data[storeData] ? dataStore.data[storeData] : ERROR_PROPS;
+			},
+			//- STYLE для проверки данных из объекта style: {}
+			STYLE: function BEM(storeBem) {
+				return dataStore && dataStore.bem && dataStore.bem[storeBem] ? dataStore.bem[storeBem] : ERROR_PROPS;
+			},
+			//- OPT для проверки данных из объекта opt: {}
+			OPT: function OPT(storeOpt) {
+				return dataStore && dataStore.opt && dataStore.opt[storeOpt] ? !!dataStore.opt[storeOpt] : false;
+			},
+			//- ELEM для проверки данных из объекта elem: {}
+			ELEM: function ELEM(storeElem, value = {}) {
+				return dataStore && dataStore.elem && dataStore.elem[storeElem] ? dataStore.elem[storeElem] : value;
+			},
+			//- ARR для проверки данных из объекта arr: {}
+			ARR: function ARR(storeArrData, value = []) {
+				return dataStore && dataStore[storeArrData] ? dataStore[storeArrData] : value;
+			}
+		}
+	};
+
+	//- Для подключение секций
+	function addSections() {
+		return {
+			set section(s) {
+				this[s] = eval(s);
+			}
+		}
+	};

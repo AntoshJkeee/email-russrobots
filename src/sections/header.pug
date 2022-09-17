@@ -1,6 +1,10 @@
-mj-section(text-align='center' background-color='#ea5658' css-class='header-top')
-	mj-column
-		mj-image(width='92px' align='left' src='https://ltdfoto.ru/images/2022/09/14/Vector.png')
-mj-section(text-align='center' background-color='#ea5658' css-class='header-bottom')
-	mj-column
-		+titleH1(mailPage.header)
+mixin header(props)
+	//- подключение проверки пропросов
+	include ../shared/shortcut-check-store
+
+	mj-section(text-align='center' background-color='#ea5658' css-class='header-top')
+		mj-column
+			mj-image(width='92px' align='left' src= DATA('logo'))
+	mj-section(text-align='center' background-color='#ea5658' css-class='header-bottom')
+		mj-column
+			+titleH1(ELEM('titleH1'))

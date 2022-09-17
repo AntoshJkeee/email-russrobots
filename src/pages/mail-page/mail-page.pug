@@ -1,3 +1,5 @@
+include ../../shared/helpers
+
 //- Подключение store страницы для передачи данных
 include ./store/mail-page.store.pug
 
@@ -16,6 +18,7 @@ mjml
 	mj-body
 		//- HEADER письма
 		include ../../sections/header
+		+header(mailPage.header)
 
 		// Отступ между секциями
 		+mjSpacer('50px')
