@@ -1,3 +1,4 @@
+//- ПОдключение вспомогательных функций
 include ../../shared/helpers
 
 //- Подключение store страницы для передачи данных
@@ -9,6 +10,8 @@ include ../../components/mjDivider
 include ../../components/table
 include ../../components/titleH1
 include ../../components/titleH2
+include ../../components/text
+include ../../components/spacerInColumn
 
 mjml
 	mj-head
@@ -23,11 +26,9 @@ mjml
 		// Отступ между секциями
 		+mjSpacer('50px')
 
-		//- Сеекция заголовок и его описание
-		mj-section(background-color='#F1F1F1' padding='45px')
-			mj-column
-				//- Заголовок
-				+titleH2({title: 'ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)'})
+		//- Сеекция SECTION-WELCOME
+		include ../../sections/section-welcome
+		+section-welcome(mailPage.sectionWelcome)
 
 		// spacer('112px') - при отдельном использование секции 'Заголовок и его описание' нужно добавить отступ в 112px
 		//- +mjSpacer('112px')

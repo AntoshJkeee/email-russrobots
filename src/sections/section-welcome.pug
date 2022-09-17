@@ -1,0 +1,11 @@
+mixin section-welcome(props)
+	//- подключение проверки пропросов
+	include ../shared/shortcut-check-store
+
+	mj-section(background-color='#F1F1F1' padding='45px')
+		mj-column
+			+text(ELEM('textWelcome'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription'))
+			+spacerInColumn(ELEM('spacerInColumn2'))
+			+titleH2(ELEM('titleH2'))

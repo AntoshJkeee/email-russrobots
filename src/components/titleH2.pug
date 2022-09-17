@@ -1,3 +1,6 @@
 mixin titleH2(props)
-	mj-text(font-size='20px' color='#000000' font-weight='700' line-height='32px')
-		| !{props.title}
+	//- подключение проверки пропросов
+	include ../shared/shortcut-check-store
+
+	mj-text(font-size='22px' color='#0D0D0D' font-weight='700' line-height='35px')
+		| !{DATA('text')}

@@ -9,8 +9,8 @@
 				return dataStore && dataStore.data && dataStore.data[storeData] ? dataStore.data[storeData] : ERROR_PROPS;
 			},
 			//- STYLE для проверки данных из объекта style: {}
-			STYLE: function BEM(storeBem) {
-				return dataStore && dataStore.bem && dataStore.bem[storeBem] ? dataStore.bem[storeBem] : ERROR_PROPS;
+			STYLE: function storeStyle(storeStyle) {
+				return dataStore && dataStore.style && dataStore.style[storeStyle] ? dataStore.style[storeStyle] : false;
 			},
 			//- OPT для проверки данных из объекта opt: {}
 			OPT: function OPT(storeOpt) {

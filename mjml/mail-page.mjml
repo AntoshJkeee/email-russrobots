@@ -2,7 +2,7 @@
 	<mj-head>
 		<mj-title>Письма направляемые с сайта посетителям</mj-title>
 		<mj-attributes>
-			<mj-text padding="0" font-family="Verdana" font-size="14px" line-height="21px" />
+			<mj-text padding="0" font-family="Verdana" font-size="14px" line-height="21px" color="#1F2427" font-weight="500" />
 			<mj-section padding="0" />
 			<mj-divider padding="0" />
 			<mj-image padding="0" />
@@ -45,7 +45,7 @@
 		</mj-section>
 		<mj-section text-align="center" background-color="#ea5658" css-class="header-bottom">
 			<mj-column>
-				<mj-text font-size="26px" color="#ffffff" font-weight="700" line-height="36px">ДОБРО ПОЖАЛОВАТЬ В КОМАНДУ!</mj-text>
+				<mj-text font-size="28px" color="#ffffff" font-weight="700" line-height="38px">ДОБРО ПОЖАЛОВАТЬ В КОМАНДУ!</mj-text>
 			</mj-column>
 		</mj-section><!-- Отступ между секциями-->
 		<mj-section>
@@ -55,7 +55,11 @@
 		</mj-section>
 		<mj-section background-color="#F1F1F1" padding="45px">
 			<mj-column>
-				<mj-text font-size="20px" color="#000000" font-weight="700" line-height="32px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
+				<mj-text font-size="18px" font-weight="700" line-height="32px">Привет! Евгений Севостьянов.</mj-text>
+				<mj-divider border-width="30px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="18px" line-height="32px">Рады приветствовать тебя в Russian Robotics Group. Теперь ты часть команды AIC юнита!</mj-text>
+				<mj-divider border-width="40px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="22px" color="#0D0D0D" font-weight="700" line-height="35px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
 			</mj-column>
 		</mj-section><!-- spacer('112px') - при отдельном использование секции 'Заголовок и его описание' нужно добавить отступ в 112px-->
 		<!-- Отступ между секциями-->
