@@ -1,0 +1,27 @@
+mixin section-accesses(props)
+	//- подключение проверки пропросов
+	include ../shared/shortcut-check-store
+
+	mj-section(background-color='#F1F1F1' padding='45px')
+		mj-column
+			+titleH1(ELEM('titleH1'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription1'))
+			+spacerInColumn(ELEM('spacerInColumn2'))
+			+titleH1(ELEM('titleH1BookStack'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription2'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription3'))
+			+spacerInColumn(ELEM('spacerInColumn2'))
+			+titleH1(ELEM('titleH1TaskTracker'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription4'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription5'))
+			+spacerInColumn(ELEM('spacerInColumn2'))
+			+titleH1(ELEM('titleH1EventCalendar'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription6'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription7'))

@@ -5,69 +5,86 @@
 include mail-page-header
 - mailPage.section = 'header';
 
+//- данные секции WELCOME
 include mail-page-section-welcome
 - mailPage.section = 'sectionWelcome';
 
--
-	const tables = [
-		{
-			title: 'Контактные данные',
-			columns: [
-				{
-					name: 'Номер мобильного телефона',
-					description: '+7 (900) 123-45-67'
-				},
-				{
-					name: 'Адрес электронной почты',
-					description: 'konstantinopolsky@gmail.com',
-					borderBottom: false
-				}
-			]
-		},
-		{
-			spacerTop: true,
-			title: 'Заявка № 12750',
-			columns: [
-				{
-					name: 'Фамилия',
-					description: 'Константинопольский'
-				},
-				{
-					name: 'Имя',
-					description: 'Константин'
-				},
-				{
-					name: 'Отчество2',
-					description: 'Константинович'
-				},
-				{
-					name: 'Дополнительная информация',
-					description: 'Дополнительная информация, возможно, в несколько строк',
-					borderBottom: false
-				}
-			]
-		},
-		{
-			spacerTop: true,
-			title: 'Заявка № 12751',
-			columns: [
-				{
-					name: 'Фамилия',
-					description: 'Константинопольский'
-				},
-				{
-					name: 'Имя',
-					description: 'Константин'
-				},
-				{
-					name: 'Отчество2',
-					description: 'Константинович'
-				},
-				{
-					name: 'Дополнительная информация',
-					description: 'Дополнительная информация, возможно, в несколько строк',
-					borderBottom: false
-				}
-			]
-		}
-	]
+//- данные секции DECOR
+include mail-page-section-decor
+- mailPage.section = 'sectionDecor';
+
+//- данные секции OFFICE
+include mail-page-section-office
+- mailPage.section = 'sectionOffice';
+
+//- данные секции ACCESSES
+include mail-page-section-accesses
+- mailPage.section = 'sectionAccesses';
+
+//- данные секции CONTACTS
+include mail-page-section-contacts
+- mailPage.section = 'sectionContacts';
+
+// -
+// 	const tables = [
+// 		{
+// 			title: 'Контактные данные',
+// 			columns: [
+// 				{
+// 					name: 'Номер мобильного телефона',
+// 					description: '+7 (900) 123-45-67'
+// 				},
+// 				{
+// 					name: 'Адрес электронной почты',
+// 					description: 'konstantinopolsky@gmail.com',
+// 					borderBottom: false
+// 				}
+// 			]
+// 		},
+// 		{
+// 			spacerTop: true,
+// 			title: 'Заявка № 12750',
+// 			columns: [
+// 				{
+// 					name: 'Фамилия',
+// 					description: 'Константинопольский'
+// 				},
+// 				{
+// 					name: 'Имя',
+// 					description: 'Константин'
+// 				},
+// 				{
+// 					name: 'Отчество2',
+// 					description: 'Константинович'
+// 				},
+// 				{
+// 					name: 'Дополнительная информация',
+// 					description: 'Дополнительная информация, возможно, в несколько строк',
+// 					borderBottom: false
+// 				}
+// 			]
+// 		},
+// 		{
+// 			spacerTop: true,
+// 			title: 'Заявка № 12751',
+// 			columns: [
+// 				{
+// 					name: 'Фамилия',
+// 					description: 'Константинопольский'
+// 				},
+// 				{
+// 					name: 'Имя',
+// 					description: 'Константин'
+// 				},
+// 				{
+// 					name: 'Отчество2',
+// 					description: 'Константинович'
+// 				},
+// 				{
+// 					name: 'Дополнительная информация',
+// 					description: 'Дополнительная информация, возможно, в несколько строк',
+// 					borderBottom: false
+// 				}
+// 			]
+// 		}
+// 	]

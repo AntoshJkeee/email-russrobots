@@ -1,3 +1,66 @@
+<!-- --->
+<!-- 	const tables = [-->
+<!-- 		{-->
+<!-- 			title: 'Контактные данные',-->
+<!-- 			columns: [-->
+<!-- 				{-->
+<!-- 					name: 'Номер мобильного телефона',-->
+<!-- 					description: '+7 (900) 123-45-67'-->
+<!-- 				},-->
+<!-- 				{-->
+<!-- 					name: 'Адрес электронной почты',-->
+<!-- 					description: 'konstantinopolsky@gmail.com',-->
+<!-- 					borderBottom: false-->
+<!-- 				}-->
+<!-- 			]-->
+<!-- 		},-->
+<!-- 		{-->
+<!-- 			spacerTop: true,-->
+<!-- 			title: 'Заявка № 12750',-->
+<!-- 			columns: [-->
+<!-- 				{-->
+<!-- 					name: 'Фамилия',-->
+<!-- 					description: 'Константинопольский'-->
+<!-- 				},-->
+<!-- 				{-->
+<!-- 					name: 'Имя',-->
+<!-- 					description: 'Константин'-->
+<!-- 				},-->
+<!-- 				{-->
+<!-- 					name: 'Отчество2',-->
+<!-- 					description: 'Константинович'-->
+<!-- 				},-->
+<!-- 				{-->
+<!-- 					name: 'Дополнительная информация',-->
+<!-- 					description: 'Дополнительная информация, возможно, в несколько строк',-->
+<!-- 					borderBottom: false-->
+<!-- 				}-->
+<!-- 			]-->
+<!-- 		},-->
+<!-- 		{-->
+<!-- 			spacerTop: true,-->
+<!-- 			title: 'Заявка № 12751',-->
+<!-- 			columns: [-->
+<!-- 				{-->
+<!-- 					name: 'Фамилия',-->
+<!-- 					description: 'Константинопольский'-->
+<!-- 				},-->
+<!-- 				{-->
+<!-- 					name: 'Имя',-->
+<!-- 					description: 'Константин'-->
+<!-- 				},-->
+<!-- 				{-->
+<!-- 					name: 'Отчество2',-->
+<!-- 					description: 'Константинович'-->
+<!-- 				},-->
+<!-- 				{-->
+<!-- 					name: 'Дополнительная информация',-->
+<!-- 					description: 'Дополнительная информация, возможно, в несколько строк',-->
+<!-- 					borderBottom: false-->
+<!-- 				}-->
+<!-- 			]-->
+<!-- 		}-->
+<!-- 	]-->
 <mjml>
 	<mj-head>
 		<mj-title>Письма направляемые с сайта посетителям</mj-title>
@@ -45,7 +108,7 @@
 		</mj-section>
 		<mj-section text-align="center" background-color="#ea5658" css-class="header-bottom">
 			<mj-column>
-				<mj-text font-size="28px" color="#ffffff" font-weight="700" line-height="38px">ДОБРО ПОЖАЛОВАТЬ В КОМАНДУ!</mj-text>
+				<mj-text font-size="28px" color="#ffffff" font-weight="600" line-height="38px">ДОБРО ПОЖАЛОВАТЬ В КОМАНДУ!</mj-text>
 			</mj-column>
 		</mj-section><!-- Отступ между секциями-->
 		<mj-section>
@@ -61,218 +124,151 @@
 				<mj-divider border-width="40px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="22px" color="#0D0D0D" font-weight="700" line-height="35px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
 			</mj-column>
+		</mj-section><!-- Отступ между секциями-->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="50px" />
+			</mj-column>
+		</mj-section>
+		<mj-section background-color="#F1F1F1" padding="45px">
+			<mj-column>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФОРМЛЕНИЕ</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Теперь дело за малым! Отнеси свои документы нашему специалисту по кадрам.</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Пока документы в обработке, время рассказать о себе! В Russian Robotics Group есть отличная традиция - не только работать, но и дружить с компанией. Чтобы лучше знать об увлечениях друг друга, мы придумали собирать эту информацию в одном месте! </mj-text>
+			</mj-column>
+		</mj-section><!-- Отступ между секциями-->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="50px" />
+			</mj-column>
+		</mj-section>
+		<mj-section background-color="#F1F1F1" padding="45px">
+			<mj-column>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФИС</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Сейчас наши кабинеты преимущественно разделены по юнитам. Это сделано для того, чтобы было удобнее коммуницировать в рамках проектов. Но это не значит, что мы привязаны к своему рабочему месту. Ты всегда можешь прийти в любой кабинет, чтобы пообщаться с ребятами или поиграть в PlayStation. Переговорная в нашем офисе доступна без бронирования, нужно только предупредить коллег. Переговорную «Сергея Галицкого» нужно бронировать предварительно — написав офис-менеджеру.</mj-text>
+				<mj-divider border-width="55px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">График работы и обеденный перерыв</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">У нас гибкое начало рабочего дня – можешь приходить с 8:00 до 10:00.</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Выбирай удобный режим, главное, чтобы рабочий день составлял 8 часов.</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Обеденное время – один час, ты можешь выбрать его самостоятельно. Пообедать можно на нашей кухне или в кафе на первом этаже.</mj-text>
+			</mj-column>
+		</mj-section><!-- Отступ между секциями-->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="50px" />
+			</mj-column>
+		</mj-section>
+		<mj-section background-color="#F1F1F1" padding="45px">
+			<mj-column>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ДОСТУПЫ</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Поздравляем, корпоративную почту ты уже получил! Теперь лови доступы к важным и необходимым ресурсам.</mj-text>
+				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">BOOKSTACK </mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Это главная площадка Russian Robotics Group: здесь мы храним всю информацию о нашей компании, можно найти ответы на вопросы, обучающие материалы, образцы необходимых документов, инструкции к программам, полезные статьи, ссылки и фотоотчеты.</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Чтобы познакомиться с ним, давай начнем с главы ONBOARDING</mj-text>
+				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">TASK TRACKER</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Для работы над проектами в твоем юните используют TASK TRACKER ! </mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Вот твои доступы к этой программе:</mj-text>
+				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">EVENT КАЛЕНДАРЬ</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Для того, чтобы не пропускать события компании, удобно назначать встречи и контролировать свою занятость, мы используем event-календарь. Досуп к нему работает с корпоративной почты.</mj-text>
+				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
+				<mj-text font-size="14px" font-weight="500" line-height="32px">Кстати, у тебя уже назначена встреча!</mj-text>
+			</mj-column>
+		</mj-section><!-- Отступ между секциями-->
+		<mj-section>
+			<mj-column>
+				<mj-spacer height="50px" />
+			</mj-column>
+		</mj-section>
+		<mj-section background-color="#EA5658" padding="45px">
+			<mj-column>
+				<mj-text font-size="28px" color="#ffffff" font-weight="600" line-height="38px">КОНТАКТЫ</mj-text>
+			</mj-column>
 		</mj-section><!-- spacer('112px') - при отдельном использование секции 'Заголовок и его описание' нужно добавить отступ в 112px-->
 		<!-- Отступ между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="64px" />
-			</mj-column>
-		</mj-section>
-		<mj-section text-align="center">
-			<mj-column>
-				<mj-text mj-class="footer-text" color="#676E7B">Экскурсия</mj-text>
-				<mj-text align="center" font-size="20px" line-height="28px" color="#2B2E33" padding-top="8px">Страницы истории Банка России</mj-text>
-				<mj-text align="center" color="#2B2E33" padding-top="4px">для широкой аудитории, в том числе для школьников старших классов</mj-text>
-				<mj-text align="center" color="#2B2E33" padding-top="20px">16.11.2021 в 07:20</mj-text>
-			</mj-column>
-		</mj-section><!-- Отступ между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="48px" />
-			</mj-column>
-		</mj-section><!-- Дивайдер между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-divider border-width="1px" border-style="solid" border-color="#E8E9EB" />
-			</mj-column>
-		</mj-section><!-- Отступ между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="20px" />
-			</mj-column>
-		</mj-section>
-		<mj-section text-align="center">
-			<mj-column>
-				<mj-text align="left" color="#2B2E33">Для окончательной регистрации Вашей заявки на экскурсию Вам необходимо в ответном сообщении на адрес <a href="mailto:expo@cbr.ru" style="color:#2B2E33;"> expo@cbr.ru</a> не позднее, чем за 3 дня до выбранной даты отправить список посетителей (Ф.И.О.) с паспортными данными (серия и номер паспорта) в формате Microsoft Word (не скан) для оформления пропусков на территорию Банка России.<br /><br />Для граждан иностранных государств указываются: гражданство, латинская транслитерация имени и фамилии, серия и номер паспорта.<br /><br />После регистрации заявки на электронную почту будет направлено уведомление об изменении статуса заявки на «Утвержден», что будет означать готовность принять группу в заявленное время.</mj-text>
-			</mj-column>
-		</mj-section><!-- Отступ между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="20px" />
-			</mj-column>
-		</mj-section><!-- Дивайдер между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-divider border-width="1px" border-style="solid" border-color="#E8E9EB" />
-			</mj-column>
-		</mj-section><!-- Отступ между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="48px" />
-			</mj-column>
-		</mj-section><!-- Если сверху секции с предупреждением отсутствует секция описания, то отступ должен быть 20px-->
-		<mj-section text-align="center">
-			<mj-column>
-				<mj-text align="center" color="#676E7B">С 28 октября для посетителей 18+ вход в здание музея возможен только при предъявлении QR-кода с информацией о вакцинации против COVID-19, перенесенном заболевании или ПЦР-тесте, сделанном не ранее 72 часов до посещения, а также документа, удостоверяющего личность. Дети могут посещать музей в сопровождении взрослых, предъявивших QR-коды.</mj-text>
-				<mj-social font-size="14px" icon-size="16px" mode="horizontal" padding-top="32px" line-height="20px" font-weight="700" color="#2B2E33" padding="0">
-					<mj-social-element src="http://develop.frontend.aic.ru/common/images/mail/attention.png">Необходимо приезжать за 10 минут до начала экскурсии</mj-social-element>
-				</mj-social>
-			</mj-column>
-		</mj-section><!-- Отступ между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="20px" />
-			</mj-column>
-		</mj-section><!-- Дивайдер между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-divider border-width="1px" border-style="solid" border-color="#E8E9EB" />
-			</mj-column>
-		</mj-section><!-- Отступ между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="48px" />
-			</mj-column>
-		</mj-section>
-		<mj-section text-align="center">
-			<mj-column>
-				<mj-text align="center" color="#2B2E33">ул. Неглинная, 12кБ</mj-text>
-				<mj-text align="center" color="#676E7B" padding-top="4px" padding-bottom="16px">Встреча в холле здания Банка России (подъезд с настенным градусником слева от входа)</mj-text>
-				<mj-image src="http://develop.frontend.aic.ru/common/images/mail/map-email.jpg" />
-			</mj-column>
-		</mj-section><!-- Отступ между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="48px" />
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="1px solid #E8E9EB" text-align="left">
-			<mj-column>
-				<mj-text padding="0 0 12px" font-weight="700" color="#2B2E33">Контактные данные</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="1px solid #E8E9EB" text-align="left">
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#676E7B" align="left">Номер мобильного телефона</mj-text>
-			</mj-column>
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#2B2E33" align="left">+7 (900) 123-45-67</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="" text-align="left">
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#676E7B" align="left">Адрес электронной почты</mj-text>
-			</mj-column>
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#2B2E33" align="left">konstantinopolsky@gmail.com</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="24px" />
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="1px solid #E8E9EB" text-align="left">
-			<mj-column>
-				<mj-text padding="0 0 12px" font-weight="700" color="#2B2E33">Заявка № 12750</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="1px solid #E8E9EB" text-align="left">
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#676E7B" align="left">Фамилия</mj-text>
-			</mj-column>
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#2B2E33" align="left">Константинопольский</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="1px solid #E8E9EB" text-align="left">
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#676E7B" align="left">Имя</mj-text>
-			</mj-column>
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#2B2E33" align="left">Константин</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="1px solid #E8E9EB" text-align="left">
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#676E7B" align="left">Отчество2</mj-text>
-			</mj-column>
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#2B2E33" align="left">Константинович</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="" text-align="left">
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#676E7B" align="left">Дополнительная информация</mj-text>
-			</mj-column>
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#2B2E33" align="left">Дополнительная информация, возможно, в несколько строк</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="24px" />
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="1px solid #E8E9EB" text-align="left">
-			<mj-column>
-				<mj-text padding="0 0 12px" font-weight="700" color="#2B2E33">Заявка № 12751</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="1px solid #E8E9EB" text-align="left">
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#676E7B" align="left">Фамилия</mj-text>
-			</mj-column>
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#2B2E33" align="left">Константинопольский</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="1px solid #E8E9EB" text-align="left">
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#676E7B" align="left">Имя</mj-text>
-			</mj-column>
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#2B2E33" align="left">Константин</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="1px solid #E8E9EB" text-align="left">
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#676E7B" align="left">Отчество2</mj-text>
-			</mj-column>
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#2B2E33" align="left">Константинович</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section border-bottom="" text-align="left">
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#676E7B" align="left">Дополнительная информация</mj-text>
-			</mj-column>
-			<mj-column css-class="yandex-width">
-				<mj-text padding="5px 0" color="#2B2E33" align="left">Дополнительная информация, возможно, в несколько строк</mj-text>
-			</mj-column>
-		</mj-section><!-- Отступ между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="64px" />
-			</mj-column>
-		</mj-section>
-		<mj-section text-align="center">
-			<mj-column>
-				<mj-text align="center" color="#2B2E33"><a href="#" style="color: #676E7B;">Отменить или изменить заявку</a></mj-text>
-			</mj-column>
-		</mj-section><!-- Отступ между секциями-->
-		<mj-section>
-			<mj-column>
-				<mj-spacer height="32px" />
-			</mj-column>
-		</mj-section>
-		<mj-section mj-class="footer-bg" padding="32px 0">
-			<mj-column>
-				<mj-text mj-class="footer-text"><a href="tel:+74957714807" style="color:#ffffff; text-decoration:none;">+7 (495) 771-48-07</a></mj-text>
-				<mj-text mj-class="footer-text"><a href="mailto:expo@cbr.ru" style="color:#ffffff">expo@cbr.ru</a></mj-text>
-				<mj-text mj-class="footer-text"><a href="http://www.cbr.ru/bankmuseum/" style="color:#ffffff">http://www.cbr.ru/bankmuseum/</a></mj-text>
-				<mj-text mj-class="footer-text" color="#BCC1CC" padding-top="24px">© Музейно-экспозиционный фонд Банка России, 2000–2021</mj-text>
-			</mj-column>
-		</mj-section>
+		<!--+mjSpacer('64px')-->
+		<!--mj-section(text-align='center')-->
+		<!--	mj-column-->
+		<!--		mj-text(mj-class='footer-text' color='#676E7B')-->
+		<!--			| Экскурсия-->
+		<!--		mj-text(align='center' font-size='20px' line-height='28px' color='#2B2E33' padding-top='8px')-->
+		<!--			| Страницы истории Банка России-->
+		<!--		mj-text(align='center' color='#2B2E33' padding-top='4px')-->
+		<!--			| для широкой аудитории, в том числе для школьников старших классов-->
+		<!--		mj-text(align='center' color='#2B2E33' padding-top='20px')-->
+		<!--			| 16.11.2021 в 07:20-->
+		<!-- Отступ между секциями-->
+		<!--+mjSpacer('48px')-->
+		<!-- Дивайдер между секциями-->
+		<!--+mjDivider-->
+		<!-- Отступ между секциями-->
+		<!--+mjSpacer('20px')-->
+		<!--mj-section(text-align='center')-->
+		<!--	mj-column-->
+		<!--		mj-text(align='left' color='#2B2E33')-->
+		<!--			| Для окончательной регистрации Вашей заявки на экскурсию Вам необходимо в ответном сообщении на адрес #[a(href='mailto:expo@cbr.ru' style='color:#2B2E33;')  expo@cbr.ru] не позднее, чем за 3 дня до выбранной даты отправить список посетителей (Ф.И.О.) с паспортными данными (серия и номер паспорта) в формате Microsoft Word (не скан) для оформления пропусков на территорию Банка России.-->
+		<!--			br-->
+		<!--			br-->
+		<!--			| Для граждан иностранных государств указываются: гражданство, латинская транслитерация имени и фамилии, серия и номер паспорта.-->
+		<!--			br-->
+		<!--			br-->
+		<!--			| После регистрации заявки на электронную почту будет направлено уведомление об изменении статуса заявки на «Утвержден», что будет означать готовность принять группу в заявленное время.-->
+		<!-- Отступ между секциями-->
+		<!--+mjSpacer('20px')-->
+		<!-- Дивайдер между секциями-->
+		<!--+mjDivider-->
+		<!-- Отступ между секциями-->
+		<!--+mjSpacer('48px')-->
+		<!-- Если сверху секции с предупреждением отсутствует секция описания, то отступ должен быть 20px-->
+		<!--mj-section(text-align='center')-->
+		<!--	mj-column-->
+		<!--		mj-text(align='center' color='#676E7B')-->
+		<!--			| С 28 октября для посетителей 18+ вход в здание музея возможен только при предъявлении QR-кода с информацией о вакцинации против COVID-19, перенесенном заболевании или ПЦР-тесте, сделанном не ранее 72 часов до посещения, а также документа, удостоверяющего личность. Дети могут посещать музей в сопровождении взрослых, предъявивших QR-коды.-->
+		<!--		mj-social(font-size='14px' icon-size='16px' mode='horizontal' padding-top='32px' line-height='20px' font-weight='700' color='#2B2E33' padding='0')-->
+		<!--			mj-social-element(src='http://develop.frontend.aic.ru/common/images/mail/attention.png')-->
+		<!--				| Необходимо приезжать за 10 минут до начала экскурсии-->
+		<!-- Отступ между секциями-->
+		<!--+mjSpacer('20px')-->
+		<!-- Дивайдер между секциями-->
+		<!--+mjDivider-->
+		<!-- Отступ между секциями-->
+		<!--+mjSpacer('48px')-->
+		<!--mj-section(text-align='center')-->
+		<!--	mj-column-->
+		<!--		mj-text(align='center' color='#2B2E33')-->
+		<!--			| ул. Неглинная, 12кБ-->
+		<!--		mj-text(align='center' color='#676E7B' padding-top='4px' padding-bottom='16px')-->
+		<!--			| Встреча в холле здания Банка России (подъезд с настенным градусником слева от входа)-->
+		<!--		mj-image(src='http://develop.frontend.aic.ru/common/images/mail/map-email.jpg')/-->
+		<!-- Отступ между секциями-->
+		<!--+mjSpacer('48px')-->
+		<!-- for table in tables-->
+		<!-- 	+table(table)-->
+		<!-- Отступ между секциями-->
+		<!--+mjSpacer('64px')-->
+		<!--mj-section(text-align='center')-->
+		<!--	mj-column-->
+		<!--		mj-text(-->
+		<!--			align='center'-->
+		<!--			color='#2B2E33'-->
+		<!--		)-->
+		<!--			a(href='#' style='color: #676E7B;') Отменить или изменить заявку-->
+		<!-- Отступ между секциями-->
+		<!--+mjSpacer('32px')-->
+		<!--include ../../sections/footer-->
 	</mj-body>
 </mjml>

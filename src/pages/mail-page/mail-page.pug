@@ -30,99 +30,127 @@ mjml
 		include ../../sections/section-welcome
 		+section-welcome(mailPage.sectionWelcome)
 
+		// Отступ между секциями
+		+mjSpacer('50px')
+
+		//- Сеекция SECTION-DECOR
+		include ../../sections/section-decor
+		+section-decor(mailPage.sectionDecor)
+
+		// Отступ между секциями
+		+mjSpacer('50px')
+
+		//- Сеекция SECTION-DECOR
+		include ../../sections/section-office
+		+section-office(mailPage.sectionOffice)
+
+		// Отступ между секциями
+		+mjSpacer('50px')
+
+		//- Сеекция SECTION-ACCESS
+		include ../../sections/section-accesses
+		+section-accesses(mailPage.sectionAccesses)
+
+		// Отступ между секциями
+		+mjSpacer('50px')
+
+		//- Сеекция SECTION-ACCESS
+		include ../../sections/section-contacts
+		+section-contacts(mailPage.sectionContacts)
+
 		// spacer('112px') - при отдельном использование секции 'Заголовок и его описание' нужно добавить отступ в 112px
 		//- +mjSpacer('112px')
 
 		// Отступ между секциями
-		+mjSpacer('64px')
+		//+mjSpacer('64px')
 
 		//- Секция подзаголовок
-		mj-section(text-align='center')
-			mj-column
-				mj-text(mj-class='footer-text' color='#676E7B')
-					| Экскурсия
-				mj-text(align='center' font-size='20px' line-height='28px' color='#2B2E33' padding-top='8px')
-					| Страницы истории Банка России
-				mj-text(align='center' color='#2B2E33' padding-top='4px')
-					| для широкой аудитории, в том числе для школьников старших классов
-				mj-text(align='center' color='#2B2E33' padding-top='20px')
-					| 16.11.2021 в 07:20
+		//mj-section(text-align='center')
+		//	mj-column
+		//		mj-text(mj-class='footer-text' color='#676E7B')
+		//			| Экскурсия
+		//		mj-text(align='center' font-size='20px' line-height='28px' color='#2B2E33' padding-top='8px')
+		//			| Страницы истории Банка России
+		//		mj-text(align='center' color='#2B2E33' padding-top='4px')
+		//			| для широкой аудитории, в том числе для школьников старших классов
+		//		mj-text(align='center' color='#2B2E33' padding-top='20px')
+		//			| 16.11.2021 в 07:20
 
 		// Отступ между секциями
-		+mjSpacer('48px')
+		//+mjSpacer('48px')
 
 		// Дивайдер между секциями
-		+mjDivider
+		//+mjDivider
 		// Отступ между секциями
-		+mjSpacer('20px')
+		//+mjSpacer('20px')
 
 		//- Секция описания
-		mj-section(text-align='center')
-			mj-column
-				mj-text(align='left' color='#2B2E33')
-					| Для окончательной регистрации Вашей заявки на экскурсию Вам необходимо в ответном сообщении на адрес #[a(href='mailto:expo@cbr.ru' style='color:#2B2E33;')  expo@cbr.ru] не позднее, чем за 3 дня до выбранной даты отправить список посетителей (Ф.И.О.) с паспортными данными (серия и номер паспорта) в формате Microsoft Word (не скан) для оформления пропусков на территорию Банка России.
-					br
-					br
-					| Для граждан иностранных государств указываются: гражданство, латинская транслитерация имени и фамилии, серия и номер паспорта.
-					br
-					br
-					| После регистрации заявки на электронную почту будет направлено уведомление об изменении статуса заявки на «Утвержден», что будет означать готовность принять группу в заявленное время.
+		//mj-section(text-align='center')
+		//	mj-column
+		//		mj-text(align='left' color='#2B2E33')
+		//			| Для окончательной регистрации Вашей заявки на экскурсию Вам необходимо в ответном сообщении на адрес #[a(href='mailto:expo@cbr.ru' style='color:#2B2E33;')  expo@cbr.ru] не позднее, чем за 3 дня до выбранной даты отправить список посетителей (Ф.И.О.) с паспортными данными (серия и номер паспорта) в формате Microsoft Word (не скан) для оформления пропусков на территорию Банка России.
+		//			br
+		//			br
+		//			| Для граждан иностранных государств указываются: гражданство, латинская транслитерация имени и фамилии, серия и номер паспорта.
+		//			br
+		//			br
+		//			| После регистрации заявки на электронную почту будет направлено уведомление об изменении статуса заявки на «Утвержден», что будет означать готовность принять группу в заявленное время.
 
 		// Отступ между секциями
-		+mjSpacer('20px')
+		//+mjSpacer('20px')
 		// Дивайдер между секциями
-		+mjDivider
+		//+mjDivider
 		// Отступ между секциями
-		+mjSpacer('48px')
+		//+mjSpacer('48px')
 		// Если сверху секции с предупреждением отсутствует секция описания, то отступ должен быть 20px
 
 		//- Секция с предупреждением
-		mj-section(text-align='center')
-			mj-column
-				mj-text(align='center' color='#676E7B')
-					| С 28 октября для посетителей 18+ вход в здание музея возможен только при предъявлении QR-кода с информацией о вакцинации против COVID-19, перенесенном заболевании или ПЦР-тесте, сделанном не ранее 72 часов до посещения, а также документа, удостоверяющего личность. Дети могут посещать музей в сопровождении взрослых, предъявивших QR-коды.
-				mj-social(font-size='14px' icon-size='16px' mode='horizontal' padding-top='32px' line-height='20px' font-weight='700' color='#2B2E33' padding='0')
-					mj-social-element(src='http://develop.frontend.aic.ru/common/images/mail/attention.png')
-						| Необходимо приезжать за 10 минут до начала экскурсии
+		//mj-section(text-align='center')
+		//	mj-column
+		//		mj-text(align='center' color='#676E7B')
+		//			| С 28 октября для посетителей 18+ вход в здание музея возможен только при предъявлении QR-кода с информацией о вакцинации против COVID-19, перенесенном заболевании или ПЦР-тесте, сделанном не ранее 72 часов до посещения, а также документа, удостоверяющего личность. Дети могут посещать музей в сопровождении взрослых, предъявивших QR-коды.
+		//		mj-social(font-size='14px' icon-size='16px' mode='horizontal' padding-top='32px' line-height='20px' font-weight='700' color='#2B2E33' padding='0')
+		//			mj-social-element(src='http://develop.frontend.aic.ru/common/images/mail/attention.png')
+		//				| Необходимо приезжать за 10 минут до начала экскурсии
 
 		// Отступ между секциями
-		+mjSpacer('20px')
+		//+mjSpacer('20px')
 		// Дивайдер между секциями
-		+mjDivider
+		//+mjDivider
 
 		// Отступ между секциями
-		+mjSpacer('48px')
+		//+mjSpacer('48px')
 
 		//- Секция адрес и карта
-		mj-section(text-align='center')
-			mj-column
-				mj-text(align='center' color='#2B2E33')
-					| ул. Неглинная, 12кБ
-				mj-text(align='center' color='#676E7B' padding-top='4px' padding-bottom='16px')
-					| Встреча в холле здания Банка России (подъезд с настенным градусником слева от входа)
-				mj-image(src='http://develop.frontend.aic.ru/common/images/mail/map-email.jpg')/
+		//mj-section(text-align='center')
+		//	mj-column
+		//		mj-text(align='center' color='#2B2E33')
+		//			| ул. Неглинная, 12кБ
+		//		mj-text(align='center' color='#676E7B' padding-top='4px' padding-bottom='16px')
+		//			| Встреча в холле здания Банка России (подъезд с настенным градусником слева от входа)
+		//		mj-image(src='http://develop.frontend.aic.ru/common/images/mail/map-email.jpg')/
 
 		// Отступ между секциями
-		+mjSpacer('48px')
+		//+mjSpacer('48px')
 
 		//- Секция таблица с данными
-		for table in tables
-			+table(table)
+		// for table in tables
+		// 	+table(table)
 
 		// Отступ между секциями
-		+mjSpacer('64px')
+		//+mjSpacer('64px')
 
 		//- Секция ссылка на отмену заявки
-		mj-section(text-align='center')
-			mj-column
-				mj-text(
-					align='center'
-					color='#2B2E33'
-				)
-					a(href='#' style='color: #676E7B;') Отменить или изменить заявку
+		//mj-section(text-align='center')
+		//	mj-column
+		//		mj-text(
+		//			align='center'
+		//			color='#2B2E33'
+		//		)
+		//			a(href='#' style='color: #676E7B;') Отменить или изменить заявку
 
 		// Отступ между секциями
-		+mjSpacer('32px')
+		//+mjSpacer('32px')
 
 		//- FOOTER письма
-		include ../../sections/footer
+		//include ../../sections/footer

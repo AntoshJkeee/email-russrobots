@@ -1,0 +1,17 @@
+mixin section-office(props)
+	//- подключение проверки пропросов
+	include ../shared/shortcut-check-store
+
+	mj-section(background-color='#F1F1F1' padding='45px')
+		mj-column
+			+titleH1(ELEM('titleH1'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription1'))
+			+spacerInColumn(ELEM('spacerInColumn2'))
+			+titleH1(ELEM('titleH1Schedule'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription2'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription3'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+			+text(ELEM('textDescription4'))
