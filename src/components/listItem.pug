@@ -1,0 +1,7 @@
+mixin listItem(props)
+	//- подключение проверки пропросов
+	include ../shared/shortcut-check-store
+
+	mj-text(line-height='0.5' css-class='list-item')
+		span(style='color: #EA5658; font-size: 28px; vertical-align: middle; padding-right: 15px;') !{'●'}
+		span(style='vertical-align: sub; font-size: 14px; font-weight: 600') !{DATA('text')}
