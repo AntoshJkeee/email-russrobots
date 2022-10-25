@@ -1,13 +1,18 @@
-mj-section(mj-class='footer-bg' padding='32px 0')
-  mj-column
-    mj-text(mj-class='footer-text')
-      a(href='tel:+74957714807' style='color:#ffffff; text-decoration:none;')
-        | +7 (495) 771-48-07
-    mj-text(mj-class='footer-text')
-      a(href='mailto:expo@cbr.ru' style='color:#ffffff')
-        | expo@cbr.ru
-    mj-text(mj-class='footer-text')
-      a(href='http://www.cbr.ru/bankmuseum/' style='color:#ffffff')
-        | http://www.cbr.ru/bankmuseum/
-    mj-text(mj-class='footer-text' color='#BCC1CC' padding-top='24px')
-      | © Музейно-экспозиционный фонд Банка России, 2000–2021
+mixin footer(props)
+	//- подключение проверки пропросов
+	include ../shared/shortcut-check-store
+
+	mj-section(background-color='#EA5658' padding='45px')
+		mj-column(width='100%')
+			+titleH1(ELEM('titleH1'))
+			+spacerInColumn(ELEM('spacerInColumn1'))
+		+contactsGroup(ELEM('contactsGroup1'))
+		mj-column(width='100%')
+			+spacerInColumn(ELEM('spacerInColumn2'))
+		+contactsGroup(ELEM('contactsGroup2'))
+		mj-column(width='100%')
+			+spacerInColumn(ELEM('spacerInColumn2'))
+		+contactsGroup(ELEM('contactsGroup3'))
+		mj-column(width='100%')
+			+spacerInColumn(ELEM('spacerInColumn3'))
+			mj-image(width='92px' align='left' src= DATA('logo'))

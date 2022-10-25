@@ -1,0 +1,7 @@
+mixin contactsGroup(props)
+	//- подключение проверки пропросов
+	include ../shared/shortcut-check-store
+
+	mj-group(width='100%')
+		+contacts(ELEM('contactsLeft'))
+		+contacts(ELEM('contactsRight'))

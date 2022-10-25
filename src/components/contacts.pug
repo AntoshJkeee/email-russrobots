@@ -1,0 +1,10 @@
+mixin contacts(props)
+	//- подключение проверки пропросов
+	include ../shared/shortcut-check-store
+
+	mj-column
+		+text(ELEM('textTitle'))
+		+spacerInColumn(ELEM('spacerInColumn'))
+		+text(ELEM('textName'))
+		+link(ELEM('linkTel'))
+		+link(ELEM('linkTg'))

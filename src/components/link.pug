@@ -1,0 +1,6 @@
+mixin link(props)
+	//- подключение проверки пропросов
+	include ../shared/shortcut-check-store
+
+	mj-text(font-size=STYLE('fs') font-weight=STYLE('fw') line-height=STYLE('lh'))
+		a(style='color: #FFFFFF; text-decoration: none;' href=DATA('link')) !{DATA('text')}
