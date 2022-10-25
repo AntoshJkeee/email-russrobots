@@ -64,8 +64,9 @@
 <mjml>
 	<mj-head>
 		<mj-title>Письма направляемые с сайта посетителям</mj-title>
+		<mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat" />
 		<mj-attributes>
-			<mj-text padding="0" font-family="Verdana" font-size="14px" line-height="21px" color="#1F2427" font-weight="500" />
+			<mj-text padding="0" font-family="Montserrat" font-size="14px" line-height="21px" color="#1F2427" font-weight="500" />
 			<mj-section padding="0" />
 			<mj-divider padding="0" />
 			<mj-image padding="0" />
@@ -76,12 +77,12 @@
 			width: 295px !important;
 			}
 			.header-top {
-			padding: 45px 45px 0 45px;
+			padding: 30px 30px 0 30px;
 			height: 180px;
 			box-sizing: border-box;
 			}
 			.header-bottom {
-			padding: 0 45px 45px 45px;
+			padding: 0 30px 30px 30px;
 			box-sizing: border-box;
 			}</mj-style>
 		<mj-style>//.header__column {
