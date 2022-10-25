@@ -2,5 +2,5 @@ mixin text(props)
 	//- подключение проверки пропросов
 	include ../shared/shortcut-check-store
 
-	mj-text(font-size=STYLE('fs') font-weight=STYLE('fw') line-height='32px')
+	mj-text(font-size=STYLE('fs') font-weight=STYLE('fw') line-height=STYLE('lh'))
 		| !{DATA('text')}

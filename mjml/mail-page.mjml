@@ -119,11 +119,11 @@
 		</mj-section>
 		<mj-section background-color="#F1F1F1" padding="45px">
 			<mj-column>
-				<mj-text font-size="18px" font-weight="700" line-height="32px">Привет! Евгений Севостьянов.</mj-text>
+				<mj-text font-size="18px" font-weight="600" line-height="32px">Привет! Евгений Севостьянов.</mj-text>
 				<mj-divider border-width="30px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="18px" line-height="32px">Рады приветствовать тебя в Russian Robotics Group. Теперь ты часть команды AIC юнита!</mj-text>
+				<mj-text font-size="18px" line-height="27px">Рады приветствовать тебя в Russian Robotics Group. Теперь ты часть команды AIC юнита!</mj-text>
 				<mj-divider border-width="40px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="22px" color="#0D0D0D" font-weight="700" line-height="35px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
+				<mj-text font-size="22px" color="#0D0D0D" font-weight="600" line-height="35px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
 			</mj-column>
 		</mj-section><!-- Отступ между секциями-->
 		<mj-section>
@@ -135,9 +135,9 @@
 			<mj-column>
 				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФОРМЛЕНИЕ</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Теперь дело за малым! Отнеси свои документы нашему специалисту по кадрам.</mj-text>
+				<mj-text font-size="14px" font-weight="500">Теперь дело за малым! Отнеси свои документы нашему специалисту по кадрам.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Пока документы в обработке, время рассказать о себе! В Russian Robotics Group есть отличная традиция - не только работать, но и дружить с компанией. Чтобы лучше знать об увлечениях друг друга, мы придумали собирать эту информацию в одном месте! </mj-text>
+				<mj-text font-size="14px" font-weight="500">Пока документы в обработке, время рассказать о себе! В Russian Robotics Group есть отличная традиция - не только работать, но и дружить с компанией. Чтобы лучше знать об увлечениях друг друга, мы придумали собирать эту информацию в одном месте! </mj-text>
 			</mj-column>
 		</mj-section><!-- Отступ между секциями-->
 		<mj-section>
@@ -149,15 +149,15 @@
 			<mj-column>
 				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФИС</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Сейчас наши кабинеты преимущественно разделены по юнитам. Это сделано для того, чтобы было удобнее коммуницировать в рамках проектов. Но это не значит, что мы привязаны к своему рабочему месту. Ты всегда можешь прийти в любой кабинет, чтобы пообщаться с ребятами или поиграть в PlayStation. Переговорная в нашем офисе доступна без бронирования, нужно только предупредить коллег. Переговорную «Сергея Галицкого» нужно бронировать предварительно — написав офис-менеджеру.</mj-text>
+				<mj-text font-size="14px" font-weight="500">Сейчас наши кабинеты преимущественно разделены по юнитам. Это сделано для того, чтобы было удобнее коммуницировать в рамках проектов. Но это не значит, что мы привязаны к своему рабочему месту. Ты всегда можешь прийти в любой кабинет, чтобы пообщаться с ребятами или поиграть в PlayStation. Переговорная в нашем офисе доступна без бронирования, нужно только предупредить коллег. Переговорную «Сергея Галицкого» нужно бронировать предварительно — написав офис-менеджеру.</mj-text>
 				<mj-divider border-width="55px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">График работы и обеденный перерыв</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">У нас гибкое начало рабочего дня – можешь приходить с 8:00 до 10:00.</mj-text>
+				<mj-text font-size="14px" font-weight="500">У нас гибкое начало рабочего дня – можешь приходить с 8:00 до 10:00.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Выбирай удобный режим, главное, чтобы рабочий день составлял 8 часов.</mj-text>
+				<mj-text font-size="14px" font-weight="500">Выбирай удобный режим, главное, чтобы рабочий день составлял 8 часов.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Обеденное время – один час, ты можешь выбрать его самостоятельно. Пообедать можно на нашей кухне или в кафе на первом этаже.</mj-text>
+				<mj-text font-size="14px" font-weight="500">Обеденное время – один час, ты можешь выбрать его самостоятельно. Пообедать можно на нашей кухне или в кафе на первом этаже.</mj-text>
 			</mj-column>
 		</mj-section><!-- Отступ между секциями-->
 		<mj-section>
@@ -169,25 +169,25 @@
 			<mj-column>
 				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ДОСТУПЫ</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Поздравляем, корпоративную почту ты уже получил! Теперь лови доступы к важным и необходимым ресурсам.</mj-text>
+				<mj-text font-size="14px" font-weight="500">Поздравляем, корпоративную почту ты уже получил! Теперь лови доступы к важным и необходимым ресурсам.</mj-text>
 				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">BOOKSTACK </mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Это главная площадка Russian Robotics Group: здесь мы храним всю информацию о нашей компании, можно найти ответы на вопросы, обучающие материалы, образцы необходимых документов, инструкции к программам, полезные статьи, ссылки и фотоотчеты.</mj-text>
+				<mj-text font-size="14px" font-weight="500">Это главная площадка Russian Robotics Group: здесь мы храним всю информацию о нашей компании, можно найти ответы на вопросы, обучающие материалы, образцы необходимых документов, инструкции к программам, полезные статьи, ссылки и фотоотчеты.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Чтобы познакомиться с ним, давай начнем с главы ONBOARDING</mj-text>
+				<mj-text font-size="14px" font-weight="500">Чтобы познакомиться с ним, давай начнем с главы ONBOARDING</mj-text>
 				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">TASK TRACKER</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Для работы над проектами в твоем юните используют TASK TRACKER ! </mj-text>
+				<mj-text font-size="14px" font-weight="500">Для работы над проектами в твоем юните используют TASK TRACKER ! </mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Вот твои доступы к этой программе:</mj-text>
+				<mj-text font-size="14px" font-weight="500">Вот твои доступы к этой программе:</mj-text>
 				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">EVENT КАЛЕНДАРЬ</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Для того, чтобы не пропускать события компании, удобно назначать встречи и контролировать свою занятость, мы используем event-календарь. Досуп к нему работает с корпоративной почты.</mj-text>
+				<mj-text font-size="14px" font-weight="500">Для того, чтобы не пропускать события компании, удобно назначать встречи и контролировать свою занятость, мы используем event-календарь. Досуп к нему работает с корпоративной почты.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="14px" font-weight="500" line-height="32px">Кстати, у тебя уже назначена встреча!</mj-text>
+				<mj-text font-size="14px" font-weight="500">Кстати, у тебя уже назначена встреча!</mj-text>
 			</mj-column>
 		</mj-section><!-- Отступ между секциями-->
 		<mj-section>
