@@ -46,7 +46,7 @@
 		</mj-section>
 		<mj-section text-align="center" background-color="#ea5658" css-class="header-bottom">
 			<mj-column>
-				<mj-text font-size="28px" color="#ffffff" font-weight="600" line-height="38px">ДОБРО ПОЖАЛОВАТЬ В КОМАНДУ!</mj-text>
+				<mj-text font-size="28px" color="#ffffff" font-weight="600" line-height="38px">ДОБРО ПОЖАЛОВАТЬ В КОМАНДУ!&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
 			</mj-column>
 		</mj-section><!-- Отступ между секциями-->
 		<mj-section>
@@ -55,13 +55,21 @@
 			</mj-column>
 		</mj-section>
 		<mj-section background-color="#F1F1F1" padding="45px">
-			<mj-column>
+			<mj-column width="100%">
 				<mj-text font-size="18px" font-weight="600" line-height="32px">Привет! Евгений Севостьянов.</mj-text>
 				<mj-divider border-width="30px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="18px" line-height="27px">Рады приветствовать тебя в Russian Robotics Group. Теперь ты часть команды AIC юнита!</mj-text>
 				<mj-divider border-width="40px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="22px" color="#0D0D0D" font-weight="600" line-height="35px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
 			</mj-column>
+			<mj-group>
+				<mj-column>
+					<!-- titleh1-->
+				</mj-column>
+				<mj-column>
+					<!-- mj-image-->
+				</mj-column>
+			</mj-group>
 		</mj-section><!-- Отступ между секциями-->
 		<mj-section>
 			<mj-column>
@@ -70,7 +78,7 @@
 		</mj-section>
 		<mj-section background-color="#F1F1F1" padding="45px">
 			<mj-column>
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФОРМЛЕНИЕ</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФОРМЛЕНИЕ&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Теперь дело за малым! Отнеси свои документы нашему специалисту по кадрам.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
@@ -86,11 +94,11 @@
 		</mj-section>
 		<mj-section background-color="#F1F1F1" padding="45px">
 			<mj-column>
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФИС</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФИС&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Сейчас наши кабинеты преимущественно разделены по юнитам. Это сделано для того, чтобы было удобнее коммуницировать в рамках проектов. Но это не значит, что мы привязаны к своему рабочему месту. Ты всегда можешь прийти в любой кабинет, чтобы пообщаться с ребятами или поиграть в PlayStation. Переговорная в нашем офисе доступна без бронирования, нужно только предупредить коллег. Переговорную «Сергея Галицкого» нужно бронировать предварительно — написав офис-менеджеру.</mj-text>
 				<mj-divider border-width="55px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">График работы и обеденный перерыв</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">График работы и обеденный перерыв&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">У нас гибкое начало рабочего дня – можешь приходить с 8:00 до 10:00.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
@@ -106,23 +114,23 @@
 		</mj-section>
 		<mj-section background-color="#F1F1F1" padding="45px">
 			<mj-column>
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ДОСТУПЫ</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ДОСТУПЫ&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Поздравляем, корпоративную почту ты уже получил! Теперь лови доступы к важным и необходимым ресурсам.</mj-text>
 				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">BOOKSTACK </mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">BOOKSTACK &nbsp;&nbsp;&nbsp;&#129126;</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Это главная площадка Russian Robotics Group: здесь мы храним всю информацию о нашей компании, можно найти ответы на вопросы, обучающие материалы, образцы необходимых документов, инструкции к программам, полезные статьи, ссылки и фотоотчеты.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Чтобы познакомиться с ним, давай начнем с главы ONBOARDING</mj-text>
 				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">TASK TRACKER</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">TASK TRACKER&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Для работы над проектами в твоем юните используют TASK TRACKER AtiveCollab!</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Вот твои доступы к этой программе:</mj-text>
 				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">EVENT КАЛЕНДАРЬ</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">EVENT КАЛЕНДАРЬ&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Для того, чтобы не пропускать события компании, удобно назначать встречи и контролировать свою занятость, мы используем event-календарь. Досуп к нему работает с корпоративной почты.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
@@ -134,8 +142,69 @@
 				<mj-spacer height="50px" />
 			</mj-column>
 		</mj-section>
-		<!--//- Сеекция FOOTER-->
-		<!--include ../../sections/footer-->
-		<!--+footer(mailPage.footer)-->
+		<mj-section background-color="#EA5658" padding="45px">
+			<mj-column width="100%">
+				<mj-text font-size="28px" color="#ffffff" font-weight="600" line-height="38px">КОНТАКТЫ&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
+				<mj-divider border-width="40px" border-style="solid" border-color="transparent" />
+			</mj-column>
+			<mj-group width="100%">
+				<mj-column>
+					<mj-text>ОТДЕЛ КАДРОВ</mj-text>
+					<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
+					<mj-text>Ольга Птахина</mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="tel:+79884000103">+7 (988) 400 01 03</a></mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="https://t.me/olgaptakhina">@olgaptakhina</a></mj-text>
+				</mj-column>
+				<mj-column>
+					<mj-text>HR-менеджер</mj-text>
+					<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
+					<mj-text>Карина Серая</mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="tel:+79286635752">+7 (928) 663 57 52</a></mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="https://t.me/SerayaHR">@SerayaHR</a></mj-text>
+				</mj-column>
+			</mj-group>
+			<mj-column width="100%">
+				<mj-divider border-width="65px" border-style="solid" border-color="transparent" />
+			</mj-column>
+			<mj-group width="100%">
+				<mj-column>
+					<mj-text>ОТДЕЛ КАДРОВ</mj-text>
+					<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
+					<mj-text>Ольга Птахина</mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="tel:+79884000103">+7 (988) 400 01 03</a></mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="https://t.me/olgaptakhina">@olgaptakhina</a></mj-text>
+				</mj-column>
+				<mj-column>
+					<mj-text>HR-менеджер</mj-text>
+					<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
+					<mj-text>Карина Серая</mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="tel:+79286635752">+7 (928) 663 57 52</a></mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="https://t.me/SerayaHR">@SerayaHR</a></mj-text>
+				</mj-column>
+			</mj-group>
+			<mj-column width="100%">
+				<mj-divider border-width="65px" border-style="solid" border-color="transparent" />
+			</mj-column>
+			<mj-group width="100%">
+				<mj-column>
+					<mj-text>ОТДЕЛ КАДРОВ</mj-text>
+					<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
+					<mj-text>Ольга Птахина</mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="tel:+79884000103">+7 (988) 400 01 03</a></mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="https://t.me/olgaptakhina">@olgaptakhina</a></mj-text>
+				</mj-column>
+				<mj-column>
+					<mj-text>HR-менеджер</mj-text>
+					<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
+					<mj-text>Карина Серая</mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="tel:+79286635752">+7 (928) 663 57 52</a></mj-text>
+					<mj-text><a style="color: #FFFFFF; text-decoration: none;" href="https://t.me/SerayaHR">@SerayaHR</a></mj-text>
+				</mj-column>
+			</mj-group>
+			<mj-column width="100%">
+				<mj-divider border-width="75px" border-style="solid" border-color="transparent" />
+				<mj-image width="92px" align="left" src="https://i.ibb.co/j6JwGnZ/logo.png"></mj-image>
+			</mj-column>
+		</mj-section>
 	</mj-body>
 </mjml>
