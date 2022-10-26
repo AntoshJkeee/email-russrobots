@@ -46,7 +46,7 @@
 		</mj-section>
 		<mj-section text-align="center" background-color="#ea5658" css-class="header-bottom">
 			<mj-column>
-				<mj-text font-size="28px" color="#ffffff" font-weight="600" line-height="38px">ДОБРО ПОЖАЛОВАТЬ В КОМАНДУ!&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
+				<mj-text font-size="28px" color="#ffffff" font-weight="600" line-height="38px">ДОБРО ПОЖАЛОВАТЬ В КОМАНДУ!</mj-text>
 			</mj-column>
 		</mj-section><!-- Отступ между секциями-->
 		<mj-section>
@@ -54,23 +54,41 @@
 				<mj-spacer height="50px" />
 			</mj-column>
 		</mj-section>
-		<mj-section background-color="#F1F1F1" padding="45px">
-			<mj-column width="100%">
-				<mj-text font-size="18px" font-weight="600" line-height="32px">Привет! Евгений Севостьянов.</mj-text>
-				<mj-divider border-width="30px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="18px" line-height="27px">Рады приветствовать тебя в Russian Robotics Group. Теперь ты часть команды AIC юнита!</mj-text>
-				<mj-divider border-width="40px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="22px" color="#0D0D0D" font-weight="600" line-height="35px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
-			</mj-column>
-			<mj-group>
-				<mj-column>
-					<!-- titleh1-->
+		<mj-wrapper>
+			<mj-section background-color="#F1F1F1" padding="45px 45px 0 45px">
+				<mj-column width="100%">
+					<mj-text font-size="18px" font-weight="600" line-height="32px">Привет! Евгений Севостьянов.</mj-text>
+					<mj-divider border-width="30px" border-style="solid" border-color="transparent" />
+					<mj-text font-size="18px" line-height="27px">Рады приветствовать тебя в Russian Robotics Group. Теперь ты часть команды AIC юнита!</mj-text>
+					<mj-divider border-width="40px" border-style="solid" border-color="transparent" />
+					<mj-text font-size="22px" color="#0D0D0D" font-weight="600" line-height="35px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
+					<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				</mj-column>
-				<mj-column>
-					<!-- mj-image-->
+				<mj-group width="100%">
+					<mj-column padding-top="55px">
+						<mj-text font-size="28px" color="#EA5658" font-weight="600" line-height="38px">ПОЕХАЛИ!&nbsp;&nbsp;&#129126;</mj-text>
+					</mj-column>
+					<mj-column>
+						<mj-image width="175px" align="right" src="https://i.ibb.co/w0z9h9j/Group-42097.png"></mj-image>
+						<mj-divider border-width="30px" border-style="solid" border-color="transparent" />
+					</mj-column>
+				</mj-group>
+			</mj-section>
+			<mj-section background-color="#F1F1F1" padding="0 45px 45px 45px">
+				<mj-column background-color="white" width="100%" border-radius="20px" padding="68px 45px 45px">
+					<mj-text font-size="22px" color="#0D0D0D" font-weight="600" line-height="35px">RUSSIAN ROBOTICS GROUP</mj-text>
+					<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
+					<mj-text font-size="18px" font-weight="500" line-height="24px">Digital-решения для бизнеса и государства</mj-text>
+					<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
+					<mj-text line-height="0.5" css-class="list-item"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">01</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span></mj-text>
+					<mj-divider border-width="15px" border-style="solid" border-color="transparent" />
+					<mj-text font-size="12px" font-weight="600" line-height="16px" color="#0D0D0D">Мы - ПЕРВЫЕ в разработке<br> сайтов и сервисов Краснодара </mj-text>
+					<mj-text line-height="0.5" css-class="list-item"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">01</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span></mj-text>
+					<mj-divider border-width="15px" border-style="solid" border-color="transparent" />
+					<mj-text font-size="12px" font-weight="600" line-height="16px" color="#0D0D0D">Мы - ПЕРВЫЕ в разработке<br> сайтов и сервисов Краснодара </mj-text>
 				</mj-column>
-			</mj-group>
-		</mj-section><!-- Отступ между секциями-->
+			</mj-section>
+		</mj-wrapper><!-- Отступ между секциями-->
 		<mj-section>
 			<mj-column>
 				<mj-spacer height="50px" />
@@ -78,7 +96,7 @@
 		</mj-section>
 		<mj-section background-color="#F1F1F1" padding="45px">
 			<mj-column>
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФОРМЛЕНИЕ&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФОРМЛЕНИЕ</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Теперь дело за малым! Отнеси свои документы нашему специалисту по кадрам.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
@@ -96,11 +114,11 @@
 		</mj-section>
 		<mj-section background-color="#F1F1F1" padding="45px">
 			<mj-column>
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФИС&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ОФИС</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Сейчас наши кабинеты преимущественно разделены по юнитам. Это сделано для того, чтобы было удобнее коммуницировать в рамках проектов. Но это не значит, что мы привязаны к своему рабочему месту. Ты всегда можешь прийти в любой кабинет, чтобы пообщаться с ребятами или поиграть в PlayStation. Переговорная в нашем офисе доступна без бронирования, нужно только предупредить коллег. Переговорную «Сергея Галицкого» нужно бронировать предварительно — написав офис-менеджеру.</mj-text>
 				<mj-divider border-width="55px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">График работы и обеденный перерыв&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">График работы и обеденный перерыв</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">У нас гибкое начало рабочего дня – можешь приходить с 8:00 до 10:00.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
@@ -116,11 +134,11 @@
 		</mj-section>
 		<mj-section background-color="#F1F1F1" padding="45px">
 			<mj-column>
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ДОСТУПЫ&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">ДОСТУПЫ</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Поздравляем, корпоративную почту ты уже получил! Теперь лови доступы к важным и необходимым ресурсам.</mj-text>
 				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">BOOKSTACK &nbsp;&nbsp;&nbsp;&#129126;</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">BOOKSTACK </mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Это главная площадка Russian Robotics Group: здесь мы храним всю информацию о нашей компании, можно найти ответы на вопросы, обучающие материалы, образцы необходимых документов, инструкции к программам, полезные статьи, ссылки и фотоотчеты.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
@@ -134,7 +152,7 @@
 				<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
 				<mj-text line-height="0.5" css-class="list-item"><span style="color: #EA5658; font-size: 28px; vertical-align: middle; padding-right: 15px;">●</span><span style="vertical-align: sub; font-size: 14px; font-weight: 600">Прочти правила «Корпоративной переписки» </span></mj-text>
 				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">TASK TRACKER&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">TASK TRACKER</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Для работы над проектами в твоем юните используют TASK TRACKER AtiveCollab!</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
@@ -144,7 +162,7 @@
 				<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
 				<mj-text line-height="0.5" css-class="list-item"><span style="color: #EA5658; font-size: 28px; vertical-align: middle; padding-right: 15px;">●</span><span style="vertical-align: sub; font-size: 14px; font-weight: 600">Пароль: </span></mj-text>
 				<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
-				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">EVENT КАЛЕНДАРЬ&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
+				<mj-text font-size="28px" color="#000000" font-weight="600" line-height="38px">EVENT КАЛЕНДАРЬ</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				<mj-text font-size="14px" font-weight="500">Для того, чтобы не пропускать события компании, удобно назначать встречи и контролировать свою занятость, мы используем event-календарь. Досуп к нему работает с корпоративной почты.</mj-text>
 				<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
@@ -160,7 +178,7 @@
 		</mj-section>
 		<mj-section background-color="#EA5658" padding="45px">
 			<mj-column width="100%">
-				<mj-text font-size="28px" color="#ffffff" font-weight="600" line-height="38px">КОНТАКТЫ&nbsp;&nbsp;&nbsp;&#129126;</mj-text>
+				<mj-text font-size="28px" color="#ffffff" font-weight="600" line-height="38px">КОНТАКТЫ</mj-text>
 				<mj-divider border-width="40px" border-style="solid" border-color="transparent" />
 			</mj-column>
 			<mj-group width="100%">

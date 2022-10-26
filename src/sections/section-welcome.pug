@@ -2,15 +2,26 @@ mixin section-welcome(props)
 	//- подключение проверки пропросов
 	include ../shared/shortcut-check-store
 
-	mj-section(background-color='#F1F1F1' padding='45px')
-		mj-column(width='100%')
-			+text(ELEM('textWelcome'))
-			+spacerInColumn(ELEM('spacerInColumn1'))
-			+text(ELEM('textDescription'))
-			+spacerInColumn(ELEM('spacerInColumn2'))
-			+titleH2(ELEM('titleH2'))
-		mj-group
-			mj-column
-				// titleh1
-			mj-column
-				// mj-image
+	mj-wrapper
+		mj-section(background-color='#F1F1F1' padding='45px 45px 0 45px')
+			mj-column(width='100%')
+				+text(ELEM('textWelcome'))
+				+spacerInColumn(ELEM('spacerInColumn1'))
+				+text(ELEM('textDescription'))
+				+spacerInColumn(ELEM('spacerInColumn2'))
+				+titleH2(ELEM('titleH2'))
+				+spacerInColumn(ELEM('spacerInColumn3'))
+			mj-group(width='100%')
+				mj-column(padding-top='55px')
+					+titleH1(ELEM('titleH1'))
+				mj-column()
+					mj-image(width='175px' align='right' src= DATA('logo'))
+					+spacerInColumn(ELEM('spacerInColumn1'))
+		mj-section(background-color='#F1F1F1' padding='0 45px 45px 45px')
+			mj-column(background-color='white' width='100%' border-radius='20px' padding='68px 45px 45px')
+				+titleH2(ELEM('titleH2RusRobots'))
+				+spacerInColumn(ELEM('spacerInColumn4'))
+				+text(ELEM('textDescription2'))
+				+spacerInColumn(ELEM('spacerInColumn5'))
+				+places(ELEM('places1'))
+				+places(ELEM('places2'))
