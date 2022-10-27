@@ -76,19 +76,20 @@
 					<mj-text font-size="18px" font-weight="500" line-height="24px">Digital-решения для бизнеса и государства</mj-text>
 					<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
 					<mj-text line-height="0.5">
-						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">01</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span>
-							<p>Какой-то доп текст !!!!!!</p>
+						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">01</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">________</span>
+							<p style="font-size: 12px; font-weight: 600; color: #0D0D0D; line-height: 16px;">Мы - ПЕРВЫЕ в разработке<br> сайтов и сервисов Краснодара </p>
 						</div>
-						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">02</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span>
-							<p>Какой-то2 доп2 текст2 !!!!!!</p>
+						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">02</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">________</span>
+							<p style="font-size: 12px; font-weight: 600; color: #0D0D0D; line-height: 16px;">За нашими плечами более<br> 400 проектов </p>
 						</div>
 					</mj-text>
+					<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
 					<mj-text line-height="0.5">
-						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">03</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span>
-							<p>Какой-то3 доп3 текст3 !!!!!!</p>
+						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">03</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">________</span>
+							<p style="font-size: 12px; font-weight: 600; color: #0D0D0D; line-height: 16px;">Помогаем бизнесу работать<br> эффективнее с помощью<br> digital-инструментов</p>
 						</div>
-						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">04</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span>
-							<p>Какой-то4 доп2 текст4 !!!!!!</p>
+						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">04</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">________</span>
+							<p style="font-size: 12px; font-weight: 600; color: #0D0D0D; line-height: 16px;">Работаем в самом инновационном месте Краснодара</p>
 						</div>
 					</mj-text>
 				</mj-column>
@@ -195,7 +196,7 @@
 					<mj-text font-size="12px"><a style="color: #FFFFFF; text-decoration: none;" href="https://t.me/olgaptakhina">@olgaptakhina</a></mj-text>
 				</mj-column>
 				<mj-column>
-					<mj-text font-size="14px" font-weight="600" color="#FFFFFF">HR-менеджер</mj-text>
+					<mj-text font-size="14px" font-weight="600" color="#FFFFFF">HR-МЕНЕДЖЕР</mj-text>
 					<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
 					<mj-text font-size="12px" font-weight="500" color="#FFFFFF">Карина Серая</mj-text>
 					<mj-text font-size="12px"><a style="color: #FFFFFF; text-decoration: none;" href="tel:+79286635752">+7 (928) 663 57 52</a></mj-text>
