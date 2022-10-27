@@ -2,8 +2,12 @@ mixin places(props)
 	//- подключение проверки пропросов
 	include ../shared/shortcut-check-store
 
-	mj-text(line-height='0.5' css-class='list-item')
-		span(style='vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658') !{DATA('text')}
-		span(style='color: #d4d4d4; font-size: 28px; padding-left: 15px;') !{'__________'}
-	+spacerInColumn(ELEM('spacerInColumn'))
-	+text(ELEM('textInfo'))
+	mj-text(line-height='0.5')
+		div(style='display: inline-block;' class='column-per-49 mj-outlook-group-fix')
+			span(style='vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658') !{DATA('textLeft')}
+			span(style='color: #d4d4d4; font-size: 28px; padding-left: 15px;') !{'__________'}
+			p !{DATA('textInfoLeft')}
+		div(style='display: inline-block;' class='column-per-49 mj-outlook-group-fix')
+			span(style='vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658') !{DATA('textRight')}
+			span(style='color: #d4d4d4; font-size: 28px; padding-left: 15px;') !{'__________'}
+			p !{DATA('textInfoRight')}

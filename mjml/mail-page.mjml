@@ -10,8 +10,11 @@
 			<mj-class name="footer-bg" background-color="#77787B" />
 			<mj-class name="footer-text" font-size="14px" line-height="20px" align="center" />
 		</mj-attributes>
-		<mj-style inline="inline">.yandex-width {
-			width: 295px !important;
+		<mj-style inline="inline">.column-per-49 {
+			width: 49% !important;
+			}
+			.welcome-height {
+			height: 140px
 			}
 			.header-top {
 			padding: 30px 30px 0 30px;
@@ -22,21 +25,12 @@
 			padding: 0 30px 30px 30px;
 			box-sizing: border-box;
 			}</mj-style>
-		<mj-style>//.header__column {
-			// width: 100% !important;
-			// max-width: 100%;
-			// height: 50%;
-			//}
-			//@media only screen and (max-width:480px) {
-			// .yandex-width {
-			// width: 100% !important;
-			// }
-			//}
-			//@media only screen and (min-width:480px) {
-			// .yandex-width {
-			// width: 295px !important;
-			// }
-			//}</mj-style>
+		<mj-style>.column-per-49 {
+			width: 49% !important;
+			}
+			.welcome-height {
+			height: 140px
+			}</mj-style>
 	</mj-head>
 	<mj-body>
 		<mj-section text-align="center" background-color="#ea5658" css-class="header-top">
@@ -64,9 +58,10 @@
 					<mj-text font-size="22px" color="#0D0D0D" font-weight="600" line-height="35px">ЭТОТ ЧЕК-ЛИСТ ПОМОЖЕТ ТЕБЕ <br> ПОНЯТЬ, КУДА ТЫ ПОПАЛ <br> И ЧТО С ЭТИМ ДЕЛАТЬ :)</mj-text>
 					<mj-divider border-width="20px" border-style="solid" border-color="transparent" />
 				</mj-column>
-				<mj-group width="100%">
+				<mj-group width="100%" css-class="welcome-height">
 					<mj-column padding-top="55px">
-						<mj-text font-size="28px" color="#EA5658" font-weight="600" line-height="38px">ПОЕХАЛИ!&nbsp;&nbsp;&#129126;</mj-text>
+						<mj-text font-size="28px" color="#EA5658" font-weight="600" line-height="38px">ПОЕХАЛИ!</mj-text>&nbsp;&nbsp;#129126;
+						<!--mj-image(width="92px" align="right" src="https://i.ibb.co/j6JwGnZ/logo.png")-->
 					</mj-column>
 					<mj-column>
 						<mj-image width="175px" align="right" src="https://i.ibb.co/w0z9h9j/Group-42097.png"></mj-image>
@@ -80,12 +75,22 @@
 					<mj-divider border-width="10px" border-style="solid" border-color="transparent" />
 					<mj-text font-size="18px" font-weight="500" line-height="24px">Digital-решения для бизнеса и государства</mj-text>
 					<mj-divider border-width="50px" border-style="solid" border-color="transparent" />
-					<mj-text line-height="0.5" css-class="list-item"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">01</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span></mj-text>
-					<mj-divider border-width="15px" border-style="solid" border-color="transparent" />
-					<mj-text font-size="12px" font-weight="600" line-height="16px" color="#0D0D0D">Мы - ПЕРВЫЕ в разработке<br> сайтов и сервисов Краснодара </mj-text>
-					<mj-text line-height="0.5" css-class="list-item"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">01</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span></mj-text>
-					<mj-divider border-width="15px" border-style="solid" border-color="transparent" />
-					<mj-text font-size="12px" font-weight="600" line-height="16px" color="#0D0D0D">Мы - ПЕРВЫЕ в разработке<br> сайтов и сервисов Краснодара </mj-text>
+					<mj-text line-height="0.5">
+						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">01</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span>
+							<p>Какой-то доп текст !!!!!!</p>
+						</div>
+						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">02</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span>
+							<p>Какой-то2 доп2 текст2 !!!!!!</p>
+						</div>
+					</mj-text>
+					<mj-text line-height="0.5">
+						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">03</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span>
+							<p>Какой-то3 доп3 текст3 !!!!!!</p>
+						</div>
+						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">04</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">__________</span>
+							<p>Какой-то4 доп2 текст4 !!!!!!</p>
+						</div>
+					</mj-text>
 				</mj-column>
 			</mj-section>
 		</mj-wrapper><!-- Отступ между секциями-->

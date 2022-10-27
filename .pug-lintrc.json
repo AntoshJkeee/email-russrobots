@@ -1,6 +1,5 @@
 {
 	"disallowAttributeInterpolation": true,
-	"disallowClassAttributeWithStaticValue": true,
 	"disallowClassLiteralsBeforeIdLiterals": true,
 	"disallowDuplicateAttributes": true,
 	"disallowIdLiterals": true,
