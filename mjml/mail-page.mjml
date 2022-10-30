@@ -60,11 +60,10 @@
 				</mj-column>
 				<mj-group width="100%" css-class="welcome-height">
 					<mj-column padding-top="55px">
-						<mj-text font-size="28px" color="#EA5658" font-weight="600" line-height="38px">ПОЕХАЛИ!</mj-text>&nbsp;&nbsp;#129126;
-						<!--mj-image(width="92px" align="right" src="https://i.ibb.co/j6JwGnZ/logo.png")-->
+						<mj-text font-size="28px" color="#EA5658" font-weight="600" line-height="38px">ПОЕХАЛИ!&nbsp;&nbsp;&#129126;</mj-text>
 					</mj-column>
 					<mj-column>
-						<mj-image width="175px" align="right" src="https://i.ibb.co/w0z9h9j/Group-42097.png"></mj-image>
+						<mj-image width="175px" align="right" src="https://i.ibb.co/X3C4jv0/Group-42097.png"></mj-image>
 						<mj-divider border-width="30px" border-style="solid" border-color="transparent" />
 					</mj-column>
 				</mj-group>
