@@ -79,7 +79,7 @@
 							<p style="font-size: 12px; font-weight: 600; color: #0D0D0D; line-height: 16px;">Мы - ПЕРВЫЕ в разработке<br> сайтов и сервисов Краснодара </p>
 						</div>
 						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">02</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">________</span>
-							<div style="font-size: 12px; font-weight: 600; color: #0D0D0D; line-height: 16px;">За нашими плечами более<br> 400 проектов </div>
+							<p style="font-size: 12px; font-weight: 600; color: #0D0D0D; line-height: 16px;">За нашими плечами более<br> 400 проектов </p>
 						</div>
 					</mj-text>
 					<mj-text height="49px"></mj-text>
@@ -88,7 +88,7 @@
 							<p style="font-size: 12px; font-weight: 600; color: #0D0D0D; line-height: 16px;">Помогаем бизнесу работать<br> эффективнее с помощью<br> digital-инструментов</p>
 						</div>
 						<div class="column-per-49 mj-outlook-group-fix" style="display: inline-block;"><span style="vertical-align: middle; font-size: 36px; font-weight: 600; color: #EA5658">04</span><span style="color: #d4d4d4; font-size: 28px; padding-left: 15px;">________</span>
-							<div style="font-size: 12px; font-weight: 600; color: #0D0D0D; line-height: 16px;">Работаем в самом инновационном месте Краснодара</div>
+							<p style="font-size: 12px; font-weight: 600; color: #0D0D0D; line-height: 16px;">Работаем в самом инновационном месте Краснодара</p>
 						</div>
 					</mj-text>
 				</mj-column>
